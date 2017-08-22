@@ -1,8 +1,4 @@
-/*CLEARFIX*/
-.clearfix:after {content: ".";	display: block;	clear: both; visibility: hidden; line-height: 0; height: 0;}
-.clearfix {	display: inline-block;}
-html[xmlns] .clearfix {display: block;}
-* html .clearfix {height: 1%;}
+
 
 /*CSS RESET*/
 html,body,div,span,applet,object,iframe,
@@ -79,6 +75,7 @@ a
 }
 /**************Nav************/
 /*NAV*/
+
 #nav-wrap{
 	background-color:#555;
 	box-shadow:0px 1px 5px rgba(0,0,0,0.4);
@@ -94,6 +91,7 @@ a
 	height:60px;
 	width:100%;
 	margin: 0 auto;
+
 }
 
 #nav ul{position:relative;}
@@ -147,7 +145,7 @@ a
 
 /*CONTENT*/
 #content-wrap{
-	width:600px;
+	width:100%;
 	margin:100px auto 180px;}
 
 /***************Header*************/
@@ -160,38 +158,51 @@ a
   background-attachment   : fixed;
   box-sizing              : border-box;
   overflow                : hidden;
+  height: 100vh;
+}
+
+.centrado-porcentual
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
 }
 
 .cover img
 {
   display :  block;
-  margin : 150px auto 0 auto;
+  margin :  0 auto;
   width :  700px;
+
 
 }
 
 .cover h1
 {
   color        : #fff;
+  display: none;
   font-size    : 5em;
   font-weight  : 300;
-  margin       : -50px 0 0 0;
+  margin       : 0;
   text-align   : center;
   opacity      : 0.8;
+
 }
 
 .cover h2
 {
   color        : #fff;
   opacity      : 0.6;
-  margin       : 10px 0 150px 0;
+  margin       : 0;
   text-align   : center;
 }
 
 .cover hr
 {
   height             : 2px;
-  width              : 80%;
+  width              : 100%;
   background-color   : #fff;
   border: 0px;
   margin: 0 auto;
@@ -202,7 +213,7 @@ a
 /************Startup**********/
 .startup h3
 {
-  color       : #f1c353;
+  color       : #edcf3d;
   text-align  : center;
   font-size   : 3em;
   margin-top  : 50px;
@@ -218,7 +229,7 @@ a
 .ico-startup
 {
   font-size   : 3em;
-  color       : #f1c353;
+  color       : #edcf3d;
   margin      : 0 10px 0 10px;
 }
 
@@ -231,7 +242,7 @@ a
 
 .information h3
 {
-  color        : #f1c353;
+  color        : #edcf3d;
   font-size    : 1.5em;
   text-align   : center;
   margin-top   : 10px;
@@ -246,7 +257,7 @@ a
 .ico-information
 {
   font-size   : 5em;
-  color       : #f1c353;
+  color       : #edcf3d;
 }
 
 /**********Our Team***************/
@@ -308,7 +319,7 @@ a
 /******Mapa**********/
 .ubicacion
 {
-  color :  #f1c353;
+  color :  #edcf3d;
 }
 iframe
 {
@@ -329,7 +340,7 @@ iframe
 
 .button
 {
-  background-color  : #ffa726;
+  background-color  : #edcf3d;
   border            : 0;
   border-radius     : 5px;
   box-shadow        : 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);

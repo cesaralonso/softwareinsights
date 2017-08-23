@@ -74,6 +74,12 @@ a
 }
 /**************Nav************/
 /*NAV*/
+.ico-menu
+{
+  padding: 0 15px;
+  font-size: 1.5em;
+}
+
 ul
 {
   margin   :   0 auto;
@@ -360,5 +366,10 @@ iframe
 
     width :  100%;
 
+  }
+
+  .lbl-menu
+  {
+    display: none;
   }
 }

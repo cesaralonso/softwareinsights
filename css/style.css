@@ -371,5 +371,11 @@ iframe
   .lbl-menu
   {
     display: none;
+
+  }
+
+  .ico-menu
+  {
+    padding: 5px;
   }
 }

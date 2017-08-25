@@ -355,12 +355,30 @@ iframe
    box-shadow: 0 7px 14px rgba(0, 0, 0, 0.18), 0 5px 5px rgba(0, 0, 0, 0.12);
  }
 
- @media only screen and (max-width: 800px)
+ @media only screen and (max-width: 1100px)
  {
    .input
    {
      margin : 5px;
      width : 500px;
+   }
+
+   .cover img
+   {
+
+     width :  500px;;
+
+   }
+
+   .lbl-menu
+   {
+     display: none;
+
+   }
+
+   .ico-menu
+   {
+     padding: 2px;
    }
  }
 
@@ -385,7 +403,7 @@ iframe
   .cover img
   {
 
-    width :  100%;
+    width :  380px;;
 
   }
 

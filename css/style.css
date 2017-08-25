@@ -370,6 +370,11 @@ iframe
 
    }
 
+   .ico-service
+   {
+     font-size: 3em;
+   }
+
    .lbl-menu
    {
      display: none;
@@ -381,6 +386,7 @@ iframe
      padding: 2px;
    }
  }
+
 
 @media only screen and (max-width: 500px)
 {
@@ -417,5 +423,10 @@ iframe
   {
     padding: 0;
     margin: 0;
+  }
+
+  .ico-service
+  {
+    font-size: 6em;
   }
 }

@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?kj0iua');
-  src:  url('fonts/icomoon.eot?kj0iua#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?kj0iua') format('truetype'),
-    url('fonts/icomoon.woff?kj0iua') format('woff'),
-    url('fonts/icomoon.svg?kj0iua#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?l37pkn');
+  src:  url('fonts/icomoon.eot?l37pkn#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?l37pkn') format('truetype'),
+    url('fonts/icomoon.woff?l37pkn') format('woff'),
+    url('fonts/icomoon.svg?l37pkn#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,8 +24,32 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-map-marker:before {
+  content: "\f041";
+}
+.icon-group:before {
+  content: "\f0c0";
+}
+.icon-users2:before {
+  content: "\f0c0";
+}
+.icon-phone:before {
+  content: "\e90a";
+}
+.icon-laptop_chromebook:before {
+  content: "\e31f";
+}
+.icon-laptop_mac:before {
+  content: "\e320";
+}
+.icon-laptop_windows:before {
+  content: "\e321";
+}
 .icon-earth:before {
   content: "\e900";
+}
+.icon-location:before {
+  content: "\e90b";
 }
 .icon-eye:before {
   content: "\e901";
@@ -33,11 +57,26 @@
 .icon-heart:before {
   content: "\e902";
 }
+.icon-monitor:before {
+  content: "\e90c";
+}
+.icon-phone2:before {
+  content: "\e90d";
+}
+.icon-pointer:before {
+  content: "\e90e";
+}
 .icon-code:before {
   content: "\e903";
 }
+.icon-home:before {
+  content: "\e90f";
+}
 .icon-envelop:before {
   content: "\e945";
+}
+.icon-compass2:before {
+  content: "\e94a";
 }
 .icon-display:before {
   content: "\e956";
@@ -51,6 +90,12 @@
 .icon-mobile2:before {
   content: "\e959";
 }
+.icon-user:before {
+  content: "\e971";
+}
+.icon-users:before {
+  content: "\e972";
+}
 .icon-facebook2:before {
   content: "\ea91";
 }
@@ -59,6 +104,9 @@
 }
 .icon-telegram:before {
   content: "\ea95";
+}
+.icon-flickr4:before {
+  content: "\eaa6";
 }
 .icon-github:before {
   content: "\eab0";

@@ -186,3 +186,65 @@ footer .glyphicon {
       font-size: 150px;
   }
 }
+
+
+/***************Header*************/
+.cover
+{
+  background-image        : url(../images/computer.jpg);
+  background-size         : cover;
+  background-position     : center center;
+  background-repeat       : no-repeat;
+  background-attachment   : fixed;
+  box-sizing              : border-box;
+  overflow                : hidden;
+  height: 100vh;
+}
+
+.centrado-porcentual
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.cover img
+{
+  display :  block;
+  margin :  0 auto;
+  width :  700px;
+
+
+}
+
+.cover h1
+{
+  color        : #fff;
+  display: none;
+  font-size    : 5em;
+  font-weight  : 300;
+  margin       : 0;
+  text-align   : center;
+  opacity      : 0.8;
+
+}
+
+.cover h2
+{
+  color        : #fff;
+  opacity      : 0.6;
+  margin       : 0;
+  text-align   : center;
+}
+
+.cover hr
+{
+  height             : 2px;
+  width              : 100%;
+  background-color   : #fff;
+  border: 0px;
+  margin: 0 auto;
+}
+

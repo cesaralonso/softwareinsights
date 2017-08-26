@@ -187,6 +187,10 @@ footer .glyphicon {
   }
 }
 
+.navbar-brand {
+    padding: 0;
+}
+
 
 /***************Header*************/
 .cover

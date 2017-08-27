@@ -10,15 +10,15 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="../index.php">HOME</a></li>
-        <li><a href="software-a-la-medida.php">SOFTWARE A LA MEDIDA</a></li>
-        <li><a href="seo.php">SEO</a></li>
-        <li><a href="talleres.php">TALLERES</a></li>
-        <li><a href="capacitaciones.php">CAPACITACIONES</a></li>
-        <li><a href="diseno-web-y-movil.php">DISEÑO WEB Y MÓVIL</a></li>
-        <li><a href="outsourcing.php">OUTSOURCING</a></li>
-        <li><a href="hosting-y-dominios.php">HOSTING Y DOMINIOS</a></li>
-        <li><a href="consultorias.php">CONSULTORIAS</a></li>
+        <li><a href="">HOME</a></li>
+        <li><a href="software-a-la-medida">SOFTWARE A LA MEDIDA</a></li>
+        <li><a href="seo">SEO</a></li>
+        <li><a href="talleres">TALLERES</a></li>
+        <li><a href="capacitaciones">CAPACITACIONES</a></li>
+        <li><a href="diseno-web-y-movil">DISEÑO WEB Y MÓVIL</a></li>
+        <li><a href="outsourcing">OUTSOURCING</a></li>
+        <li><a href="hosting-y-dominios">HOSTING Y DOMINIOS</a></li>
+        <li><a href="consultorias">CONSULTORIAS</a></li>
       </ul>
     </div>
   </div>

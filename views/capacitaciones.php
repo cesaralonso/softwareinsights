@@ -1,20 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Capacitaciones Software Insights</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="../css/estilos.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-</head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-
-<?php include('../includes/nav-pages.php'); ?>
 
 <header class="row">
   <div class="col-xs-12">
@@ -104,45 +88,3 @@
     </div>
     </div>
 </div>
-
-<?php include('../includes/form-contact-me.php'); ?>
-
-<?php include('../includes/own-clients.php'); ?>
-
-<?php include('../includes/footer.php'); ?>
-
-<script>
-$(document).ready(function(){
-
-  $("#form-contact-me").submit(function(e){
-      e.preventDefault();
-
-      var $form = $(this);
-      var $inputs = $form.find("input, select, button, textarea");
-      var serializedData = $form.serialize();
-      $inputs.prop("disabled", true);
-      request = $.ajax({
-          url: "../server/contactme-email-send.php",
-          type: "post",
-          data: serializedData
-      })
-      .done(function (response, textStatus, jqXHR){
-          response = JSON.parse(response);
-          alert(response.msg);
-      })
-      .fail(function (jqXHR, textStatus, errorThrown){
-          console.error(
-              "The following error occurred: "+
-              textStatus, errorThrown
-          );
-      })
-      .always(function () {
-          $inputs.prop("disabled", false);
-      });
-  });
-  
-})
-</script>
-
-</body>
-</html>

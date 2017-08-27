@@ -131,70 +131,8 @@
   </div>
 </div>
 
-<!-- Container (Portfolio Section)
-<div id="portfolio" class="container-fluid text-center bg-grey">
-  <div class="container"> 
-    <h2>NUESTRO EQUIPO</h2><br>
-    <h4>Conoce nuestro equipo</h4>
-    <div class="row text-center slideanim">
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="images/avatar.jpeg" alt="Paris" width="400" height="300">
-          <p><strong>Cesar Alonso Magaña</strong></p>
-          <p>CEO y Fundador</p>
-          <p>Ing. en Telemática</p>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="images/avatar.jpeg" alt="Paris" width="400" height="300">
-          <p><strong>Flor Juliana Davila</strong></p>
-          <p>Administración</p>
-          <p>Lic. en Administración</p>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="images/avatar.jpeg" alt="Paris" width="400" height="300">
-          <p><strong>Brandom Villa</strong></p>
-          <p>Desarrollador Back-End</p>
-          <p>Ing. en Informática</p>
-        </div>
-      </div>
-    </div><br>
-    <div class="row text-center slideanim">
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="images/avatar.jpeg" alt="Paris" width="400" height="300">
-          <p><strong>Paul Jiménez</strong></p>
-          <p>Desarrollador Front-End</p>
-          <p>Maestro en Sistemas Computacionales</p>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="images/avatar.jpeg" alt="Paris" width="400" height="300">
-          <p><strong>Omar Martínez</strong></p>
-          <p>Diseñador UX/UI</p>
-          <p>UX Designer</p>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="images/avatar.jpeg" alt="Paris" width="400" height="300">
-          <p><strong>Ana Medína</strong></p>
-          <p>Diseñadora Web</p>
-          <p>Diseño multimedia.</p>
-        </div>
-      </div>
-    </div><br>
-  </div>
-</div> -->
-
 <!-- Add Google Maps -->
 <div id="ubicacion" class="container-fluid text-center">
-  <div class="container"> 
-    <h2>UBICACIÓN</h2>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3756.0169687015505!2d-103.46498688269483!3d19.711898399170394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842f86b00296cc81%3A0x8a3d3827e8985d36!2sCalle+Federico+del+Toro+339%2C+Cd+Guzm%C3%A1n+Centro%2C+49000+Cd+Guzman%2C+Jal.!5e0!3m2!1ses-419!2smx!4v1503337006153" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-  </div>
+  <h2>UBICACIÓN</h2>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3756.0169687015505!2d-103.46498688269483!3d19.711898399170394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842f86b00296cc81%3A0x8a3d3827e8985d36!2sCalle+Federico+del+Toro+339%2C+Cd+Guzm%C3%A1n+Centro%2C+49000+Cd+Guzman%2C+Jal.!5e0!3m2!1ses-419!2smx!4v1503337006153" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>

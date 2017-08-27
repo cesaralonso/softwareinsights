@@ -219,20 +219,16 @@ footer .glyphicon {
   display :  block;
   margin :  0 auto;
   width :  700px;
-
-
 }
 
 .cover h1
 {
   color        : #fff;
-  display: none;
   font-size    : 5em;
   font-weight  : 300;
   margin       : 0;
   text-align   : center;
   opacity      : 0.8;
-
 }
 
 .cover h2
@@ -254,4 +250,15 @@ footer .glyphicon {
 
 .pagina-interna {
     height: 400px;
+}
+
+/***************Bootstrap Override*************/
+.btn-danger {
+    background-color: #F7C935;
+    border-color: #f4a713
+}
+
+.btn-danger:hover {
+    background-color: #222;
+    border-color: #000
 }

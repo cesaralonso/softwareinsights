@@ -260,6 +260,17 @@ footer .glyphicon {
 }
 
 
+@media only screen and (max-width: 700px) {
+
+  .cover img
+  {
+
+    width:  100%;;
+
+  }
+
+}
+
 @media only screen and (max-width: 500px) {
   ul
   {
@@ -275,13 +286,6 @@ footer .glyphicon {
   .button
   {
     width: 300px;
-  }
-
-  .cover img
-  {
-
-    width:  100%;;
-
   }
 
   .lbl-menu

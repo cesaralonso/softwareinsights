@@ -14,26 +14,7 @@
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#myPage"><img src="images/Imagotipo.png" class="logo-nav" alt=""></a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">NOSOTROS</a></li>
-        <li><a href="#services">SERVICIOS</a></li>
-        <li><a href="#portfolio">EQUIPO</a></li>
-        <li><a href="#contact">CONTACTO</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<?php include('includes/nav-main.php'); ?>
 
 <header class="row">
   <div class="col-xs-12">
@@ -99,7 +80,7 @@
     <div class="row slideanim">
       <div class="col-sm-4">
         <span class="glyphicon glyphicon-off logo-small"></span>
-        <h4><a href="servicios/software-a-la-medida.html">SOFTWARE A LA MEDIDA</a></h4>
+        <h4><a href="servicios/software-a-la-medida.php">SOFTWARE A LA MEDIDA</a></h4>
         <p>Creamos sitios web que sean los más adecuados para cubrir tus necesidades, también te ayudamos a ubicar cual es la solución perfecta para tu empresa o idea.</p>
         <p>
           <ul>
@@ -114,12 +95,12 @@
       </div>
       <div class="col-sm-4">
         <span class="glyphicon glyphicon-heart logo-small"></span>
-        <h4><a href="servicios/seo.html">SEO</a></h4>
+        <h4><a href="servicios/seo.php">SEO</a></h4>
         <p>Se aplican en un sitio web un conjunto de técnicas diseñadas específicamente para lograr la indexación del mayor número de palabras claves posibles en los buscadores más populares como Google y Bing para lograr colocar un sitio web de manera orgánica en los primeros lugares de resultados de búsquedas.</p>
       </div>
       <div class="col-sm-4">
         <span class="glyphicon glyphicon-lock logo-small"></span>
-        <h4><a href="servicios/hosting-y-dominios.html">HOSTING Y DOMINIOS</a></h4>
+        <h4><a href="servicios/hosting-y-dominios.php">HOSTING Y DOMINIOS</a></h4>
         <p>Servicio de venta y manejo de renta de hosting.</p>
           <ul>
             <li>Configuración de servidores dedicados</li>
@@ -133,12 +114,12 @@
     <div class="row slideanim col-md-offset-3">
       <div class="col-sm-4">
         <span class="glyphicon glyphicon-wrench logo-small"></span>
-        <h4><a href="servicios/capacitaciones.html">CAPACITACIONES</a></h4>
+        <h4><a href="servicios/capacitaciones.php">CAPACITACIONES</a></h4>
         <p>Capacitamos a tu personal y a cualquier persona que desee tener conocimientos sólidos sobre tecnologías, herramientas y metodologías más utilizadas en la actualidad.</p>
       </div>
       <div class="col-sm-4">
         <span class="glyphicon glyphicon-wrench logo-small"></span>
-        <h4><a href="servicios/talleres.html">TALLERES</a></h4>
+        <h4><a href="servicios/talleres.php">TALLERES</a></h4>
         <p>Talleres de creación de aplicaciones web completas con consumo de API's y aplicaciones Híbridas.</p>
       </div>
     </div>
@@ -146,21 +127,21 @@
     <div class="row slideanim">
       <div class="col-sm-4">
         <span class="glyphicon glyphicon-leaf logo-small"></span>
-        <h4><a href="servicios/consultorias.html">CONSULTORIAS</a></h4>
+        <h4><a href="servicios/consultorias.php">CONSULTORIAS</a></h4>
         <p>Te ayudamos a tomar la mejor decisión para tu proyecto e ideas de software.
         Contamos con una amplia experiencia en la creación de software, más de 15 años, seguro podemos resolver tus dudas, orientarte para que puedas lograr tus objetivos, ayudándote a construir el software a la medida que requieras desarrollar, a través de tu propio equipo de desarrollo, por ti mismo o por una empresa Outsourcing.
         </p>
       </div>
       <div class="col-sm-4">
         <span class="glyphicon glyphicon-wrench logo-small"></span>
-        <h4><a href="servicios/outsourcing.html">OUTSOURCING</a></h4>
+        <h4><a href="servicios/outsourcing.php">OUTSOURCING</a></h4>
         <p>Te proporcionamos un equipo de profesionales especializado y capacitado en  desarrollo ágil mediante la metodología Scrum.<br>
         Incluimos el personal siendo a tu consideración el número de elementos, el cuál garantizará que los tiempos y costos de desarrollo serán muy bajos y con resultados de alta calidad
         </p>
       </div>
       <div class="col-sm-4">
         <span class="glyphicon glyphicon-wrench logo-small"></span>
-        <h4><a href="servicios/diseno-web-y-movil.html">DISEÑO WEB Y MÓVIL</a></h4>
+        <h4><a href="servicios/diseno-web-y-movil.php">DISEÑO WEB Y MÓVIL</a></h4>
         <p>Déjanos el diseño web o móvil de tu próximo software a nosotros, a través de los siguientes pasos lograremos proporcionarte una gran ventaja al diseñar un prototipo antes de construir el modelo y al finalizar te entregamos ya maquetado todo para que solo añadas la funcionalidad.</p>
       </div>
     </div>
@@ -171,16 +152,16 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
-        <img src="images/insight.png" class="logo-cover" alt="">
+        <img src="./images/insight.png" class="logo-cover" alt="">
         <h1 class="hidden">Software Insights</h1>
         <p>Toda gran idea se debe desarrollar</p>
       </div>
       <div class="col-sm-offset-3 col-sm-6">
-        <form>
+        <form id="form-contact-me">
           <div class="input-group">
-            <input type="email" class="form-control" size="50" placeholder="Tu Email" required>
+            <input type="phone" class="form-control" size="50" placeholder="Tu teléfono" required>
             <div class="input-group-btn">
-              <button type="button" class="btn btn-danger">Permitenos contactarte</button>
+              <button type="submit" class="btn btn-danger">Permítenos contactarte</button>
             </div>
           </div>
         </form>
@@ -220,7 +201,6 @@
         </div>
       </div>
     </div><br>
-
     <div class="row text-center slideanim">
       <div class="col-sm-4">
         <div class="thumbnail">
@@ -248,93 +228,46 @@
       </div>
     </div><br>
   </div>
-
-  <div class="container"> 
-    <h2>Lo que nuestros clientes dicen</h2>
-    <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <h4>"This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></h4>
-        </div>
-        <div class="item">
-          <h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4>
-        </div>
-        <div class="item">
-          <h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
-        </div>
-      </div>
-
-      <!-- Left and right controls -->
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Anterior</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Siguiente</span>
-      </a>
-    </div>
-  </div>
 </div>
 
-<!-- Container (Contact Section) -->
-<div id="contact" class="container-fluid bg-grey">
-  <div class="container"> 
-    <h2 class="text-center">CONTACTO</h2>
-    <div class="row">
-      <div class="col-sm-5">
-        <p>Contáctanos y te responderemos lo antes posible</p>
-        <p><span class="glyphicon glyphicon-map-marker"></span> Ciudad Guzmán, Jalisco, México</p>
-        <p><span class="glyphicon glyphicon-phone"></span> +341 41-364-93</p>
-        <p><span class="glyphicon glyphicon-envelope"></span> contacto@softwareinsights.com.mx</p>
-      </div>
-      <div class="col-sm-7 slideanim">
-        <form id="form-email">
-          <div class="row">
-            <div class="col-sm-4 form-group">
-              <input class="form-control" id="name" name="name" placeholder="Nombre" type="text" required>
-            </div>
-            <div class="col-sm-4 form-group">
-              <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-            </div>
-            <div class="col-sm-4 form-group">
-              <input class="form-control" id="phone" name="phone" placeholder="Teléfono" type="phone" required>
-            </div>
-          </div>
-          <textarea class="form-control" id="comments" name="comments" placeholder="Comentarios" rows="5"></textarea><br>
-          <div class="row">
-            <div class="col-sm-12 form-group">
-              <button class="btn btn-default pull-right" type="submit">Enviar</button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
+<?php include('includes/own-clients.php'); ?>
+
+<?php include('includes/form-contact.php'); ?>
 
 <!-- Add Google Maps -->
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3756.0169687015505!2d-103.46498688269483!3d19.711898399170394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842f86b00296cc81%3A0x8a3d3827e8985d36!2sCalle+Federico+del+Toro+339%2C+Cd+Guzm%C3%A1n+Centro%2C+49000+Cd+Guzman%2C+Jal.!5e0!3m2!1ses-419!2smx!4v1503337006153" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-<footer class="container-fluid text-center">
-  <div class="container"> 
-    <a href="#myPage" title="To Top">
-      <span class="glyphicon glyphicon-chevron-up"></span>
-    </a>
-    <p>Software Insights | Todos los derechos reservados | 2017</p>
-  </div>
-</footer>
+<?php include('includes/footer.php'); ?>
 
 <script>
 $(document).ready(function(){
+
+  $("#form-contact-me").submit(function(e){
+      e.preventDefault();
+
+      var $form = $(this);
+      var $inputs = $form.find("input, select, button, textarea");
+      var serializedData = $form.serialize();
+      $inputs.prop("disabled", true);
+      request = $.ajax({
+          url: "./server/contactme-email-send.php",
+          type: "post",
+          data: serializedData
+      })
+      .done(function (response, textStatus, jqXHR){
+          response = JSON.parse(response);
+          alert(response.msg);
+      })
+      .fail(function (jqXHR, textStatus, errorThrown){
+          console.error(
+              "The following error occurred: "+
+              textStatus, errorThrown
+          );
+      })
+      .always(function () {
+          $inputs.prop("disabled", false);
+      });
+  });
 
   $("#form-email").submit(function(e){
       e.preventDefault();

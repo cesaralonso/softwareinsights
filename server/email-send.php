@@ -5,7 +5,7 @@
     $phone = isset($_POST['phone']) ? $_POST['phone'] : null;
     $comments = isset($_POST['comments']) ? $_POST['comments'] : null;
 
-    if($name === null || $email === null ||  $phone === null ||  $comments === null) {
+    if ($name === null || $email === null ||  $phone === null ||  $comments === null) {
         print_r(json_encode(array('status' => false, 'msg' => "¡Debes llenar todos los campos!" )));
     } else {
         $body = "

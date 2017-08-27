@@ -3,10 +3,10 @@
   <div class="col-xs-12">
     <div class="cover" id="section1">
       <div class="centrado-porcentual">
-        <img src="images/insight.png" alt="" class="animated slideInDown">
+        <img src="<?php echo APP_PATH; ?>images/insight.png" alt="" class="animated slideInDown">
         <h1 class="hidden">Software Insight</h1>
         <hr>
-        <h2 class="animated slideInDown">Desarrollamos tus ideas</h2>
+        <h2 class="animated slideInDown">Ideas en desarrollo</h2>
       </div>
     </div>
   </div>
@@ -23,7 +23,7 @@
         <br><a href="#services" class="btn btn-default btn-lg">Conoce nuestros servicios</a>
       </div>
       <div class="col-sm-4">
-        <span class="glyphicon glyphicon-signal logo"></span>
+        <img src="<?php echo APP_PATH; ?>images/LETREROLUMINOSO.jpg" alt="" class="slideanim logo-bn">
       </div>
     </div>
     </div>
@@ -33,10 +33,10 @@
   <div class="container"> 
     <div class="row">
       <div class="col-sm-4">
-        <span class="glyphicon glyphicon-globe logo slideanim"></span>
+        <img src="<?php echo APP_PATH; ?>images/LETREROLUMINOSO_bn.jpg" alt="" class="slideanim logo-bn">
       </div>
       <div class="col-sm-8">
-        <h4>Nuestros valores
+        <h4><strong>Nuestros valores</strong>
           <ul>
             <li>Calidad</li>
             <li>Responsabilidad</li>
@@ -63,7 +63,7 @@
     <div class="row slideanim">
       <div class="col-sm-4">
         <span class="glyphicon glyphicon-off logo-small"></span>
-        <h4><a href="servicios/software-a-la-medida">SOFTWARE A LA MEDIDA</a></h4>
+        <h4><a href="<?php echo APP_PATH; ?>servicios/software-a-la-medida">SOFTWARE A LA MEDIDA</a></h4>
         <p>Creamos sitios web que sean los más adecuados para cubrir tus necesidades, también te ayudamos a ubicar cual es la solución perfecta para tu empresa o idea.</p>
         <p>
           <ul>
@@ -78,12 +78,12 @@
       </div>
       <div class="col-sm-4">
         <span class="glyphicon glyphicon-heart logo-small"></span>
-        <h4><a href="servicios/seo">SEO</a></h4>
+        <h4><a href="<?php echo APP_PATH; ?>servicios/seo">SEO</a></h4>
         <p>Se aplican en un sitio web un conjunto de técnicas diseñadas específicamente para lograr la indexación del mayor número de palabras claves posibles en los buscadores más populares como Google y Bing para lograr colocar un sitio web de manera orgánica en los primeros lugares de resultados de búsquedas.</p>
       </div>
       <div class="col-sm-4">
         <span class="glyphicon glyphicon-lock logo-small"></span>
-        <h4><a href="servicios/hosting-y-dominios">HOSTING Y DOMINIOS</a></h4>
+        <h4><a href="<?php echo APP_PATH; ?>servicios/hosting-y-dominios">HOSTING Y DOMINIOS</a></h4>
         <p>Servicio de venta y manejo de renta de hosting.</p>
           <ul>
             <li>Configuración de servidores dedicados</li>
@@ -97,12 +97,12 @@
     <div class="row slideanim col-md-offset-3">
       <div class="col-sm-4">
         <span class="glyphicon glyphicon-wrench logo-small"></span>
-        <h4><a href="servicios/capacitaciones">CAPACITACIONES</a></h4>
+        <h4><a href="<?php echo APP_PATH; ?>servicios/capacitaciones">CAPACITACIONES</a></h4>
         <p>Capacitamos a tu personal y a cualquier persona que desee tener conocimientos sólidos sobre tecnologías, herramientas y metodologías más utilizadas en la actualidad.</p>
       </div>
       <div class="col-sm-4">
         <span class="glyphicon glyphicon-wrench logo-small"></span>
-        <h4><a href="servicios/talleres">TALLERES</a></h4>
+        <h4><a href="<?php echo APP_PATH; ?>servicios/talleres">TALLERES</a></h4>
         <p>Talleres de creación de aplicaciones web completas con consumo de API's y aplicaciones Híbridas.</p>
       </div>
     </div>
@@ -110,28 +110,28 @@
     <div class="row slideanim">
       <div class="col-sm-4">
         <span class="glyphicon glyphicon-leaf logo-small"></span>
-        <h4><a href="servicios/consultorias">CONSULTORIAS</a></h4>
+        <h4><a href="<?php echo APP_PATH; ?>servicios/consultorias">CONSULTORIAS</a></h4>
         <p>Te ayudamos a tomar la mejor decisión para tu proyecto e ideas de software.
         Contamos con una amplia experiencia en la creación de software, más de 15 años, seguro podemos resolver tus dudas, orientarte para que puedas lograr tus objetivos, ayudándote a construir el software a la medida que requieras desarrollar, a través de tu propio equipo de desarrollo, por ti mismo o por una empresa Outsourcing.
         </p>
       </div>
       <div class="col-sm-4">
         <span class="glyphicon glyphicon-wrench logo-small"></span>
-        <h4><a href="servicios/outsourcing">OUTSOURCING</a></h4>
+        <h4><a href="<?php echo APP_PATH; ?>servicios/outsourcing">OUTSOURCING</a></h4>
         <p>Te proporcionamos un equipo de profesionales especializado y capacitado en  desarrollo ágil mediante la metodología Scrum.<br>
         Incluimos el personal siendo a tu consideración el número de elementos, el cuál garantizará que los tiempos y costos de desarrollo serán muy bajos y con resultados de alta calidad
         </p>
       </div>
       <div class="col-sm-4">
         <span class="glyphicon glyphicon-wrench logo-small"></span>
-        <h4><a href="servicios/diseno-web-y-movil">DISEÑO WEB Y MÓVIL</a></h4>
+        <h4><a href="<?php echo APP_PATH; ?>servicios/diseno-web-y-movil">DISEÑO WEB Y MÓVIL</a></h4>
         <p>Déjanos el diseño web o móvil de tu próximo software a nosotros, a través de los siguientes pasos lograremos proporcionarte una gran ventaja al diseñar un prototipo antes de construir el modelo y al finalizar te entregamos ya maquetado todo para que solo añadas la funcionalidad.</p>
       </div>
     </div>
   </div>
 </div>
 
-<!-- Container (Portfolio Section) -->
+<!-- Container (Portfolio Section)
 <div id="portfolio" class="container-fluid text-center bg-grey">
   <div class="container"> 
     <h2>NUESTRO EQUIPO</h2><br>
@@ -189,7 +189,7 @@
       </div>
     </div><br>
   </div>
-</div>
+</div> -->
 
 
 <!-- Add Google Maps -->

@@ -28,6 +28,10 @@ h4 {
   width:300px;
 }
 
+.logo-bn {
+  width:300px;
+}
+
 .jumbotron {
     background-color: #444;
     color: #fff;
@@ -181,6 +185,7 @@ footer .glyphicon {
       margin-bottom: 35px;
   }
 }
+
 @media screen and (max-width: 480px) {
   .logo {
       font-size: 150px;
@@ -195,14 +200,16 @@ footer .glyphicon {
 /***************Header*************/
 .cover
 {
-  background-image        : url(../images/computer.jpg);
-  background-size         : cover;
-  background-position     : center center;
-  background-repeat       : no-repeat;
-  background-attachment   : fixed;
-  box-sizing              : border-box;
-  overflow                : hidden;
+  background-image: url(../images/computer.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  box-sizing: border-box;
+  overflow: hidden;
   height: 100vh;
+  width: 100%;
+  color: #fff;
 }
 
 .centrado-porcentual
@@ -223,27 +230,27 @@ footer .glyphicon {
 
 .cover h1
 {
-  color        : #fff;
-  font-size    : 5em;
-  font-weight  : 300;
-  margin       : 0;
-  text-align   : center;
-  opacity      : 0.8;
+  color: #fff;
+  font-size: 5em;
+  font-weight: 300;
+  margin: 0;
+  text-align: center;
+  opacity: 0.8;
 }
 
 .cover h2
 {
-  color        : #fff;
-  opacity      : 0.6;
-  margin       : 0;
-  text-align   : center;
+  color: #fff;
+  opacity: 0.6;
+  margin: 0;
+  text-align: center;
 }
 
 .cover hr
 {
-  height             : 2px;
-  width              : 100%;
-  background-color   : #fff;
+  height: 2px;
+  width: 100%;
+  background-color: #fff;
   border: 0px;
   margin: 0 auto;
 }
@@ -251,6 +258,50 @@ footer .glyphicon {
 .pagina-interna {
     height: 400px;
 }
+
+
+@media only screen and (max-width: 500px) {
+  ul
+  {
+    bottom: 0;
+  }
+
+  .input
+  {
+    margin: 5px;
+    width: 300px;
+  }
+
+  .button
+  {
+    width: 300px;
+  }
+
+  .cover img
+  {
+
+    width:  100%;;
+
+  }
+
+  .lbl-menu
+  {
+    display: none;
+
+  }
+
+  .ico-menu
+  {
+    padding: 0;
+    margin: 0;
+  }
+
+  .ico-service
+  {
+    font-size: 6em;
+  }
+}
+
 
 /***************Bootstrap Override*************/
 .btn-danger {

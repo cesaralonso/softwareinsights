@@ -2,7 +2,7 @@
     /** Envía un email **/
     $phone = isset($_POST['phone']) ? $_POST['phone'] : null;
 
-    if($name === null || $email === null ||  $phone === null ||  $comments === null) {
+    if ($phone === null) {
         print_r(json_encode(array('status' => false, 'msg' => "¡Debes dar un teléfono real!" )));
     } else {
         $body = "

@@ -6,7 +6,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#myPage"><img src="images/Imagotipo.png" class="logo-nav" alt=""></a>
+      <a class="navbar-brand" href="#top"><img src="<?php echo APP_PATH; ?>images/Imagotipo.png" class="logo-nav" alt=""></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">

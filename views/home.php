@@ -18,8 +18,8 @@
     <div class="row">
       <div class="col-sm-8">
         <h2>¿Quienes Somos?</h2><br>
-        <h4>Somos una empresa fresca, especializada en el desarrollo de software de calidad, con un equipo de profesionales con más de 10 años de experiencia en el desarrollo de software.</h4><br>
-        <p>Estamos ubicados en el centro de Ciudad Guzmán Jalisco, la tierra de José Clemente Orozco, Consuelito Velasquez, Juan Rulfo y un gran número de grandes artistas de calidad mundial, por los que nos sentimos orgullosos y comprometidos a mantener ese renombre.</p>
+        <h4>Somos una empresa nueva y fresca, especializada en el desarrollo de software de calidad, con un equipo de profesionales con más de 10 años de experiencia en el desarrollo de software.</h4><br>
+        <p>Ubicados en el centro de Ciudad Guzmán Jalisco, la tierra de José Clemente Orozco, Consuelo Veázquez, José María Arreola Mendoza y un gran número de artistas ilustres, por los que nos sentimos orgullosos y comprometidos a mantener el renombre de Zapotlán el Grande.</p>
         <br><a href="#services" class="btn btn-default btn-lg">Conoce nuestros servicios</a>
       </div>
       <div class="col-sm-4">

@@ -27,8 +27,8 @@ ErrorDocument 404 http://www.softwareinsights.com.mx/index.php?error=404
 
 <IfModule mod_rewrite.c>
 RewriteEngine on
-#RewriteBase /
-RewriteBase /softwareinsights/
+RewriteBase /
+#RewriteBase /softwareinsights/
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
 

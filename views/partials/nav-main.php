@@ -12,7 +12,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#about">NOSOTROS</a></li>
         <li><a href="#services">SERVICIOS</a></li>
-        <li><a href="#portfolio">EQUIPO</a></li>
+        <li><a href="#ubicacion">UBICACIÓN</a></li>
         <li><a href="#contact">CONTACTO</a></li>
       </ul>
     </div>

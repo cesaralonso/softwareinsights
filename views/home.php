@@ -68,11 +68,10 @@
         <p>
           <ul>
               <li>Sitios web</li>
-              <li>Administradores de contenido a la medida o instalables (Wordpress, Joomla, Magento, etc)</li>
-              <li>Sistemas para control de procesos internos en tu empresa</li>
-              <li>Tiendas en línea a la medida o instalables (Ecommerce, Magento, Opencart, etc)</li>
-              <li>Apps móviles (Android nativas)</li>
-              <li>Apps híbridas (Android, IOS, Windows Phone y web en uno)</li>
+              <li>Administradores de contenido a la medida</li>
+              <li>Sistemas para control de procesos internos</li>
+              <li>Tiendas en linea</li>
+              <li>Apps móviles e híbridas</li>
           </ul>
         </p>
       </div>

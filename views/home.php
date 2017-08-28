@@ -116,7 +116,7 @@
         </p>
       </div>
       <div class="col-sm-4">
-        <span class="glyphicon glyphicon-piggy-bank logo-small"></span>
+        <span class="glyphicon glyphicon-cog logo-small"></span>
         <h4><a href="<?php echo APP_PATH; ?>servicios/outsourcing">OUTSOURCING</a></h4>
         <p>Te proporcionamos un equipo de profesionales especializado y capacitado en  desarrollo ágil mediante la metodología Scrum.<br>
         Incluimos el personal siendo a tu consideración el número de elementos, el cuál garantizará que los tiempos y costos de desarrollo serán muy bajos y con resultados de alta calidad

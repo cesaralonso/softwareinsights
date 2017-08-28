@@ -23,7 +23,7 @@
         <br><a href="#services" class="btn btn-default btn-lg">Conoce nuestros servicios</a>
       </div>
       <div class="col-sm-4">
-        <img src="<?php echo APP_PATH; ?>images/LETREROLUMINOSO.png" alt="" class="slideanim logo-bn">
+        <img src="<?php echo APP_PATH; ?>images/Imagotipo.png" alt="" class="slideanim logo-bn">
       </div>
     </div>
     </div>
@@ -33,7 +33,7 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-4">
-        <img src="<?php echo APP_PATH; ?>images/LETREROLUMINOSO_bn.jpg" alt="" class="slideanim logo-bn">
+        <img src="<?php echo APP_PATH; ?>images/LETREROLUMINOSO_bn.png" alt="" class="slideanim logo-bn">
       </div>
       <div class="col-sm-8">
         <h4><strong>Nuestros valores</strong>

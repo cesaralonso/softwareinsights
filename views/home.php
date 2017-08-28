@@ -23,7 +23,7 @@
         <br><a href="#services" class="btn btn-default btn-lg">Conoce nuestros servicios</a>
       </div>
       <div class="col-sm-4">
-        <img src="<?php echo APP_PATH; ?>images/LETREROLUMINOSO.jpg" alt="" class="slideanim logo-bn">
+        <img src="<?php echo APP_PATH; ?>images/LETREROLUMINOSO.png" alt="" class="slideanim logo-bn">
       </div>
     </div>
     </div>

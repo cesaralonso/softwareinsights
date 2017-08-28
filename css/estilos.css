@@ -130,6 +130,7 @@ h4 {
     letter-spacing: 4px;
     border-radius: 0;
     font-family: Montserrat, sans-serif;
+    width: 98%;
 }
 .navbar li a, .navbar .navbar-brand {
     color: #fff !important;

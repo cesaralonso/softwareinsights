@@ -14,7 +14,7 @@
 
 <!-- Container (About Section) -->
 <div id="about" class="container-fluid">
-  <div class="container"> 
+  <div class="container">
     <div class="row">
       <div class="col-sm-8">
         <h2>¿Quienes Somos?</h2><br>
@@ -30,7 +30,7 @@
   </div>
 
   <div class="container-fluid bg-grey">
-  <div class="container"> 
+  <div class="container">
     <div class="row">
       <div class="col-sm-4">
         <img src="<?php echo APP_PATH; ?>images/LETREROLUMINOSO_bn.jpg" alt="" class="slideanim logo-bn">
@@ -56,7 +56,7 @@
 
 <!-- Container (Services Section) -->
 <div id="services" class="container-fluid text-center">
-  <div class="container"> 
+  <div class="container">
     <h2>SERVICIOS</h2>
     <h4>Los servicios que te ofrecemos son:</h4>
     <br>
@@ -82,7 +82,7 @@
         <p>Se aplican en un sitio web un conjunto de técnicas diseñadas específicamente para lograr la indexación del mayor número de palabras claves posibles en los buscadores más populares como Google y Bing para lograr colocar un sitio web de manera orgánica en los primeros lugares de resultados de búsquedas.</p>
       </div>
       <div class="col-sm-4">
-        <span class="glyphicon glyphicon-lock logo-small"></span>
+        <span class="glyphicon glyphicon-tasks logo-small"></span>
         <h4><a href="<?php echo APP_PATH; ?>servicios/hosting-y-dominios">HOSTING Y DOMINIOS</a></h4>
         <p>Servicio de venta y manejo de renta de hosting.</p>
           <ul>

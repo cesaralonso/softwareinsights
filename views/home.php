@@ -109,21 +109,21 @@
     <br><br>
     <div class="row slideanim">
       <div class="col-sm-4">
-        <span class="glyphicon glyphicon-leaf logo-small"></span>
+        <span class="glyphicon glyphicon-eye-open logo-small"></span>
         <h4><a href="<?php echo APP_PATH; ?>servicios/consultorias">CONSULTORIAS</a></h4>
         <p>Te ayudamos a tomar la mejor decisión para tu proyecto e ideas de software.
         Contamos con una amplia experiencia en la creación de software, más de 15 años, seguro podemos resolver tus dudas, orientarte para que puedas lograr tus objetivos, ayudándote a construir el software a la medida que requieras desarrollar, a través de tu propio equipo de desarrollo, por ti mismo o por una empresa Outsourcing.
         </p>
       </div>
       <div class="col-sm-4">
-        <span class="glyphicon glyphicon-wrench logo-small"></span>
+        <span class="glyphicon glyphicon-piggy-bank logo-small"></span>
         <h4><a href="<?php echo APP_PATH; ?>servicios/outsourcing">OUTSOURCING</a></h4>
         <p>Te proporcionamos un equipo de profesionales especializado y capacitado en  desarrollo ágil mediante la metodología Scrum.<br>
         Incluimos el personal siendo a tu consideración el número de elementos, el cuál garantizará que los tiempos y costos de desarrollo serán muy bajos y con resultados de alta calidad
         </p>
       </div>
       <div class="col-sm-4">
-        <span class="glyphicon glyphicon-wrench logo-small"></span>
+        <span class="glyphicon glyphicon-phone logo-small"></span>
         <h4><a href="<?php echo APP_PATH; ?>servicios/diseno-web-y-movil">DISEÑO WEB Y MÓVIL</a></h4>
         <p>Déjanos el diseño web o móvil de tu próximo software a nosotros, a través de los siguientes pasos lograremos proporcionarte una gran ventaja al diseñar un prototipo antes de construir el modelo y al finalizar te entregamos ya maquetado todo para que solo añadas la funcionalidad.</p>
       </div>

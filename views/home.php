@@ -62,7 +62,7 @@
     <br>
     <div class="row slideanim">
       <div class="col-sm-4">
-        <span class="glyphicon glyphicon-off logo-small"></span>
+        <span class="glyphicon glyphicon-wrench logo-small"></span>
         <h4><a href="<?php echo APP_PATH; ?>servicios/software-a-la-medida">SOFTWARE A LA MEDIDA</a></h4>
         <p>Creamos sitios web que sean los más adecuados para cubrir tus necesidades, también te ayudamos a ubicar cual es la solución perfecta para tu empresa o idea.</p>
         <p>
@@ -77,7 +77,7 @@
         </p>
       </div>
       <div class="col-sm-4">
-        <span class="glyphicon glyphicon-heart logo-small"></span>
+        <span class="glyphicon glyphicon-search logo-small"></span>
         <h4><a href="<?php echo APP_PATH; ?>servicios/seo">SEO</a></h4>
         <p>Se aplican en un sitio web un conjunto de técnicas diseñadas específicamente para lograr la indexación del mayor número de palabras claves posibles en los buscadores más populares como Google y Bing para lograr colocar un sitio web de manera orgánica en los primeros lugares de resultados de búsquedas.</p>
       </div>

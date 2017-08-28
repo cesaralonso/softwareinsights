@@ -96,12 +96,12 @@
     <br><br>
     <div class="row slideanim col-md-offset-3">
       <div class="col-sm-4">
-        <span class="glyphicon glyphicon-wrench logo-small"></span>
+        <span class="glyphicon glyphicon-blackboard logo-small"></span>
         <h4><a href="<?php echo APP_PATH; ?>servicios/capacitaciones">CAPACITACIONES</a></h4>
         <p>Capacitamos a tu personal y a cualquier persona que desee tener conocimientos sólidos sobre tecnologías, herramientas y metodologías más utilizadas en la actualidad.</p>
       </div>
       <div class="col-sm-4">
-        <span class="glyphicon glyphicon-wrench logo-small"></span>
+        <span class="glyphicon glyphicon-education logo-small"></span>
         <h4><a href="<?php echo APP_PATH; ?>servicios/talleres">TALLERES</a></h4>
         <p>Talleres de creación de aplicaciones web completas con consumo de API's y aplicaciones Híbridas.</p>
       </div>

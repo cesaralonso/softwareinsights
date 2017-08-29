@@ -45,6 +45,10 @@ switch($view) {
         $title = "Software a la Medida";
         $description = "Creamos sitios web que sean los más adecuados para cubrir tus necesidades, también te ayudamos a ubicar cual es la solución perfecta para tu empresa o idea.";
     break;
+    case "oferta-laboral-y-becarios":
+        $title = "Oferta Laboral";
+        $description = "¡Te estamos buscando! Tenemos vacantes, labora con Software Insights cubriendo alguna vacante como puede ser Desarrollador Front-end, Desarrollador Back-end, Tester, Project Manager. Realiza tus prácticas profesionales, servicio social o residencias, obten experiencia real, curriculum y lo más invaluable es la práctica trabajando en un ambiente real y productivo.";
+    break;
     case "home":
         $title = "Desarrollo de Software en Ciudad Guzmán";
         $description = "Creamos sitios web que sean los más adecuados para cubrir tus necesidades, también te ayudamos a ubicar cual es la solución perfecta para tu empresa o idea.";

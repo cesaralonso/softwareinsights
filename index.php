@@ -35,7 +35,7 @@
 
 <?php include('views/partials/form-contact.php'); ?>
 
-<?php include('views/partials/costumers.php'); ?>
+<?php include('views/partials/customers.php'); ?>
 
 <?php include('views/partials/footer.php'); ?>
 

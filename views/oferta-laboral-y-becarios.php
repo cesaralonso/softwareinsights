@@ -15,12 +15,15 @@
     <div class="row">
       <div class="col-sm-12">
         <h2>OFERTA LABORAL y Becarios</h2><br>
-        <h4>¡Te estamos buscando!, ¡tenemos vacantes!</h4><br>
+        <h4>¡Te estamos buscando!, ¡Tenemos vacantes!</h4><br>
         <p>
-           Llabora con Software Insights cubriendo alguna vacante como puede ser Desarrollador Front-end, Desarrollador Back-end, Tester, Project Manager.
+          ¡Labora con Software Insights!, cubriendo alguna vacante como puede ser Desarrollador Front-end, Desarrollador Back-end, Tester ó Project Manager.
         </p>
         <p>
-          Realiza tus prácticas profesionales, servicio social o residencias, obten experiencia real, curriculum y lo más invaluable es la práctica trabajando en un ambiente real y productivo.
+          Realiza tus prácticas profesionales, servicio social o residencias, obten experiencia, curriculum y lo más invaluable.. la práctica trabajando en un ambiente real y productivo.
+        </p>
+        <p>
+          Sal de tu carrera con la experiencia suficiente para afrontar cualquier reto laboral ó simplemente ¡Quédate a trabajar con nosotros!.
         </p>
       </div>
     </div>

@@ -1,6 +1,6 @@
 
-<header class="row">
-  <div class="col-xs-12">
+<header class="">
+  <div class="">
     <div class="cover" id="section1">
       <div class="centrado-porcentual">
         <img src="<?php echo APP_PATH; ?>images/insight.png" alt="" class="animated slideInDown">

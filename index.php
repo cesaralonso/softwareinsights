@@ -35,6 +35,8 @@
 
 <?php include('views/partials/form-contact.php'); ?>
 
+<?php include('views/partials/costumers.php'); ?>
+
 <?php include('views/partials/footer.php'); ?>
 
 <script src="<?php echo APP_PATH.'/js/'.(($view === 'home') ? 'home.js' : 'servicios.js'); ?>"></script>

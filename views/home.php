@@ -5,8 +5,6 @@
       <div class="centrado-porcentual">
         <img src="<?php echo APP_PATH; ?>images/insight.png" alt="" class="animated slideInDown">
         <h1 class="hidden">Software Insight</h1>
-        <hr>
-        <h2 class="animated slideInDown hidden-xs">Ideas en desarrollo</h2>
       </div>
     </div>
   </div>

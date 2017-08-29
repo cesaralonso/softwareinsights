@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div class="container-fluid bg-grey">
   <div class="row">
     <h2 class="text-center">Nuestros Clientes</h2>
     <div class="col-sm-2">

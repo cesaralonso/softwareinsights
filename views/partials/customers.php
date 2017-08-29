@@ -10,5 +10,8 @@
     <div class="col-sm-2">
       <img src="<?php echo APP_PATH; ?>images/LAVILLABELLA.png" alt="" class="customers-img">
     </div>
+    <div class="col-sm-2">
+      <img src="<?php echo APP_PATH; ?>images/COMPROLACASA.png" alt="" class="customers-img">
+    </div>
   </div>
 </div>

@@ -1,6 +1,6 @@
 <!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid bg-grey">
-  <div class="container"> 
+  <div class="container">
     <h2 class="text-center">CONTACTO</h2>
     <div class="row">
       <div class="col-sm-5">

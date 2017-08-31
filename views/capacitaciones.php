@@ -1,7 +1,7 @@
 
 
-<header class="row">
-  <div class="col-xs-12">
+<header class="">
+  <div class="">
     <div class="cover pagina-interna" id="section1">
       <div class="centrado-porcentual">
         <h1 class="animated slideInDown">Capacitaciones</h1>
@@ -12,7 +12,7 @@
 
 <!-- Container (About Section) -->
 <div id="about" class="container-fluid">
-  <div class="container"> 
+  <div class="container">
     <div class="row">
       <div class="col-sm-12">
         <h2>CAPACITACIONES</h2><br>

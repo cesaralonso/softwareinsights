@@ -2,7 +2,7 @@
 <header class="">
   <div class="">
     <div class="cover" id="section1">
-      <div class="centrado-porcentual">
+      <div class="centrado-porcentual-home">
         <img src="<?php echo APP_PATH; ?>images/insight.png" alt="" class="animated slideInDown">
         <h1 class="hidden">Software Insight</h1>
       </div>

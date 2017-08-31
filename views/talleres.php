@@ -3,7 +3,7 @@
   <div class="">
     <div class="cover pagina-interna" id="section1">
       <div class="centrado-porcentual">
-        <h1 class="animated slideInDown">Talleres</h1>
+        <h1 class="centrado-porcentual">Talleres</h1>
       </div>
     </div>
   </div>

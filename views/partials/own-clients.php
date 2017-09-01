@@ -29,7 +29,7 @@
             <center><img src="<?php echo APP_PATH; ?>images/COMPROLACASA.png" alt="" class="customers-img"></center>
           </div>
           <div class="col-sm-4 col-md-4">
-            <center><img src="<?php echo APP_PATH; ?>images/proyectura.png" alt="" class="customers-img"></center>
+            <center><img src="<?php echo APP_PATH; ?>images/PROYECTURA.png" alt="" class="customers-img"></center>
           </div>
           <div class="col-sm-4 col-md-4">
             <center><img src="<?php echo APP_PATH; ?>images/pidolacomida.png" alt="" class="customers-img"></center>
@@ -37,13 +37,13 @@
         </div>
         <div class="item">
           <div class="col-sm-4 col-md-4">
-            <center><img src="<?php echo APP_PATH; ?>images/marmole.png" alt="" class="customers-img"></center>
+            <center><img src="<?php echo APP_PATH; ?>images/MARMOLE.png" alt="" class="customers-img"></center>
           </div>
           <div class="col-sm-4 col-md-4">
             <center><img src="<?php echo APP_PATH; ?>images/semillas.png" alt="" class="customers-img"></center>
           </div>
           <div class="col-sm-4 col-md-4">
-            <center><img src="<?php echo APP_PATH; ?>images/tiempocompartido.png" alt="" class="customers-img"></center>
+            <center><img src="<?php echo APP_PATH; ?>images/SEMILLAS.png" alt="" class="customers-img"></center>
           </div>
         </div>
         <div class="item">

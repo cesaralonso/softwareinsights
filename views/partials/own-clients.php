@@ -43,7 +43,7 @@
             <center><img src="<?php echo APP_PATH; ?>images/semillas.png" alt="" class="customers-img"></center>
           </div>
           <div class="col-sm-4 col-md-4">
-            <center><img src="<?php echo APP_PATH; ?>images/SEMILLAS.png" alt="" class="customers-img"></center>
+            <center><img src="<?php echo APP_PATH; ?>images/TIEMPOCOMPARTIDO.png" alt="" class="customers-img"></center>
           </div>
         </div>
         <div class="item">

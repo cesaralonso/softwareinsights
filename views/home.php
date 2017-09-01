@@ -59,7 +59,7 @@
     <h4>Los servicios que te ofrecemos son:</h4>
     <br>
     <div class="row slideanim">
-      <div class="col-sm-4">
+      <div class="col-sm-3">
         <span class="glyphicon glyphicon-wrench logo-small"></span>
         <h4><a href="<?php echo APP_PATH; ?>servicios/software-a-la-medida">SOFTWARE A LA MEDIDA</a></h4>
         <p>Creamos sitios web que sean los más adecuados para cubrir tus necesidades, también te ayudamos a ubicar cual es la solución perfecta para tu empresa o idea.</p>
@@ -73,12 +73,12 @@
           </ul>
         </p>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-3">
         <span class="glyphicon glyphicon-search logo-small"></span>
         <h4><a href="<?php echo APP_PATH; ?>servicios/seo">SEO</a></h4>
         <p>Se aplican en un sitio web un conjunto de técnicas diseñadas específicamente para lograr la indexación del mayor número de palabras claves posibles en los buscadores más populares como Google y Bing para lograr colocar un sitio web de manera orgánica en los primeros lugares de resultados de búsquedas.</p>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-3">
         <span class="glyphicon glyphicon-tasks logo-small"></span>
         <h4><a href="<?php echo APP_PATH; ?>servicios/hosting-y-dominios">HOSTING Y DOMINIOS</a></h4>
         <p>Servicio de venta y manejo de renta de hosting.</p>
@@ -89,37 +89,34 @@
           </ul>
         <p>Administración, renta y sugerencias de dominios.</p>
       </div>
-    </div>
-    <br><br>
-    <div class="row slideanim col-md-offset-3">
-      <div class="col-sm-4">
+      <div class="col-sm-3">
         <span class="glyphicon glyphicon-blackboard logo-small"></span>
         <h4><a href="<?php echo APP_PATH; ?>servicios/capacitaciones">CAPACITACIONES</a></h4>
         <p>Capacitamos a tu personal y a cualquier persona que desee tener conocimientos sólidos sobre tecnologías, herramientas y metodologías más utilizadas en la actualidad.</p>
       </div>
-      <div class="col-sm-4">
+    </div>
+    <br><br>
+    <div class="row slideanim">
+      <div class="col-sm-3">
         <span class="glyphicon glyphicon-education logo-small"></span>
         <h4><a href="<?php echo APP_PATH; ?>servicios/talleres">TALLERES</a></h4>
         <p>Talleres de creación de aplicaciones web completas con consumo de API's y aplicaciones Híbridas.</p>
       </div>
-    </div>
-    <br><br>
-    <div class="row slideanim">
-      <div class="col-sm-4">
+      <div class="col-sm-3">
         <span class="glyphicon glyphicon-eye-open logo-small"></span>
         <h4><a href="<?php echo APP_PATH; ?>servicios/consultorias">CONSULTORIAS</a></h4>
         <p>Te ayudamos a tomar la mejor decisión para tu proyecto e ideas de software.
         Contamos con una amplia experiencia en la creación de software, más de 15 años, seguro podemos resolver tus dudas, orientarte para que puedas lograr tus objetivos, ayudándote a construir el software a la medida que requieras desarrollar, a través de tu propio equipo de desarrollo, por ti mismo o por una empresa Outsourcing.
         </p>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-3">
         <span class="glyphicon glyphicon-cog logo-small"></span>
         <h4><a href="<?php echo APP_PATH; ?>servicios/outsourcing">OUTSOURCING</a></h4>
         <p>Te proporcionamos un equipo de profesionales especializado y capacitado en  desarrollo ágil mediante la metodología Scrum.<br>
         Incluimos el personal siendo a tu consideración el número de elementos, el cuál garantizará que los tiempos y costos de desarrollo serán muy bajos y con resultados de alta calidad
         </p>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-3">
         <span class="glyphicon glyphicon-phone logo-small"></span>
         <h4><a href="<?php echo APP_PATH; ?>servicios/diseno-web-y-movil">DISEÑO WEB Y MÓVIL</a></h4>
         <p>Déjanos el diseño web o móvil de tu próximo software a nosotros, a través de los siguientes pasos lograremos proporcionarte una gran ventaja al diseñar un prototipo antes de construir el modelo y al finalizar te entregamos ya maquetado todo para que solo añadas la funcionalidad.</p>

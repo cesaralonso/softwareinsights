@@ -134,7 +134,7 @@ h4 {
     border: 0;
     font-size: 12px !important;
     line-height: 1.42857143 !important;
-    letter-spacing: 0;
+    letter-spacing: 0px;
     border-radius: 0;
     font-family: Montserrat, sans-serif;
 }
@@ -219,6 +219,27 @@ footer .glyphicon {
   color: #fff;
 }
 
+.col-center
+{
+    float: none;
+    margin: 0 auto;
+}
+
+.carousel-indicators
+{
+  bottom: -40px;
+}
+
+.carousel-control .glyphicon-chevron-left
+{
+  margin-left: -70px;
+}
+
+.carousel-control .glyphicon-chevron-right
+{
+  margin-right: -70px;
+}
+
 .centrado-porcentual
 {
     position: absolute;
@@ -272,7 +293,7 @@ footer .glyphicon {
 }
 
 .pagina-interna {
-    height: 400px;
+    height: 50vh;
 }
 
 

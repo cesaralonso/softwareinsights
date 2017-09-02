@@ -1,7 +1,7 @@
 <!-- Own Clients -->
 <div id="clientes" class="container-fluid text-center">
   <div class="container">
-    <h2>Nuestros clientes</h2>
+    <h2>Ellos han confiado en nosotros</h2>
     <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -15,7 +15,7 @@
       <div class="carousel-inner" role="listbox">
         <div class="item active row">
           <div class="col-sm-4 col-md-4">
-            <center><img src="<?php echo APP_PATH; ?>images/icode.png" alt="" class="customers-img"></center>
+            <center><img src="<?php echo APP_PATH; ?>images/TIEMPOCOMPARTIDO.png" alt="" class="customers-img"></center>
           </div>
           <div class="col-sm-4 col-md-4">
             <center><img src="<?php echo APP_PATH; ?>images/BIHAIV.png" alt="" class="customers-img"></center>
@@ -25,25 +25,29 @@
           </div>
         </div>
         <div class="item">
-          <div class="col-sm-4 col-md-4">
-            <center><img src="<?php echo APP_PATH; ?>images/COMPROLACASA.png" alt="" class="customers-img"></center>
-          </div>
-          <div class="col-sm-4 col-md-4">
-            <center><img src="<?php echo APP_PATH; ?>images/PROYECTURA.png" alt="" class="customers-img"></center>
-          </div>
-          <div class="col-sm-4 col-md-4">
-            <center><img src="<?php echo APP_PATH; ?>images/pidolacomida.png" alt="" class="customers-img"></center>
+          <div class="row center-block">
+            <div class="col-sm-4 col-md-4">
+              <center><img src="<?php echo APP_PATH; ?>images/COMPROLACASA.png" alt="" class="customers-img"></center>
+            </div>
+            <div class="col-sm-4 col-md-4">
+              <center><img src="<?php echo APP_PATH; ?>images/PROYECTURA.png" alt="" class="customers-img"></center>
+            </div>
+            <div class="col-sm-4 col-md-4">
+              <center><img src="<?php echo APP_PATH; ?>images/pidolacomida.png" alt="" class="customers-img"></center>
+            </div>
           </div>
         </div>
         <div class="item">
-          <div class="col-sm-4 col-md-4">
-            <center><img src="<?php echo APP_PATH; ?>images/MARMOLE.png" alt="" class="customers-img"></center>
-          </div>
-          <div class="col-sm-4 col-md-4">
-            <center><img src="<?php echo APP_PATH; ?>images/semillas.png" alt="" class="customers-img"></center>
-          </div>
-          <div class="col-sm-4 col-md-4">
-            <center><img src="<?php echo APP_PATH; ?>images/TIEMPOCOMPARTIDO.png" alt="" class="customers-img"></center>
+          <div class="row center-block">
+            <div class="col-sm-4 col-md-4">
+              <center><img src="<?php echo APP_PATH; ?>images/MARMOLE.png" alt="" class="customers-img"></center>
+            </div>
+            <div class="col-sm-4 col-md-4">
+              <center><img src="<?php echo APP_PATH; ?>images/semillas.png" alt="" class="customers-img"></center>
+            </div>
+            <div class="col-sm-4 col-md-4">
+              <center><img src="<?php echo APP_PATH; ?>images/fundacion.png" alt="" class="customers-img"></center>
+            </div>
           </div>
         </div>
         <div class="item">
@@ -52,10 +56,10 @@
               <center><img src="<?php echo APP_PATH; ?>images/enersol.png" alt="" class="customers-img"></center>
             </div>
             <div class="col-sm-4 col-md-4">
-              <center><img src="<?php echo APP_PATH; ?>images/fundacion.png" alt="" class="customers-img"></center>
+              <center><img src="<?php echo APP_PATH; ?>images/magical.png" alt="" class="customers-img"></center>
             </div>
             <div class="col-sm-4 col-md-4">
-              <center><img src="<?php echo APP_PATH; ?>images/magical.png" alt="" class="customers-img"></center>
+              <center><img src="<?php echo APP_PATH; ?>images/icode.png" alt="" class="customers-img"></center>
             </div>
           </div>
         </div>

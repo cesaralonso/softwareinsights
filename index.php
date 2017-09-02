@@ -35,7 +35,7 @@
       "contactPoint": {
         "@type": "ContactPoint",
         "telephone": "+52-341-41-270-30",
-        "contactType": "Servicio a clientes"
+        "contactType": "customer service"
       }
     }
     </script>

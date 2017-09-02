@@ -26,6 +26,19 @@
       ga('create', 'UA-105582098-1', 'auto');
       ga('send', 'pageview');
     </script>
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "url": "http://www.softwareinsights.com.mx",
+      "name": "Software Insights",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+52-341-41-270-30",
+        "contactType": "Servicio a clientes"
+      }
+    }
+    </script>
     <?php include("views/partials/".(($view === 'home') ? 'nav-main.php' : (($view === 'oferta-laboral-y-becarios') ? 'nav-vacantes.php' : 'nav-pages.php'))); ?>
     <?php include("views/$view.php"); ?>
     <?php include('views/partials/form-contact-me.php'); ?>

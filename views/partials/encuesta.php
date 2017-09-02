@@ -7,10 +7,10 @@
         <p>Nos encantaría saber de ti y así poder armar un grupo con personas como tu.</p>
         <p>Déjanos tus datos y pronto estaremos en contacto contigo.</p>
       </div>
-      <div class="col-md-7 text-center">
+      <div class="col-md-6 text-center">
         <img class="img-responsive" src="<?php echo APP_PATH."images/CARTEL_TALLERES_SEPTIEMBRE.png"?>" title="Talleres de desarrollo de software Septiembre" alt="Cartel Talleres de desarrollo de software Septiembre">
       </div>
-      <div class="col-md-5">
+      <div class="col-md-6">
           <div class="row">
             <div class="col-sm-12 slideanim">
               <form id="talleres-email">

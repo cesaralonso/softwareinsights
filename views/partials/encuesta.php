@@ -16,7 +16,7 @@
               <form id="talleres-email">
                 <div class="row">
                   <div class="col-sm-6 form-group">
-                    <label for="nivel">¿Que nivel estas interesado aprender?</label>
+                    <label for="nivel">Nivel</label>
                     <select class="form-control" id="nivel" name="nivel">
                       <option value="jr">Jr.</option>
                       <option value="intermedio">Intermedio</option>
@@ -24,8 +24,27 @@
                     </select>
                   </div>
                   <div class="col-sm-6 form-group">
-                    <label for="tecnologias">¿Qué tecnologías elegirías?</label>
+                    <label for="tecnologias">Tecnologías</label>
                     <select class="form-control" id="tecnologias" name="tecnologias">
+                    </select>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6 form-group">
+                    <label for="nivel">Horario</label>
+                    <select class="form-control" id="horario" name="horario">
+                      <option value="manana">Mañana</option>
+                      <option value="tarde">Tarde</option>
+                      <option value="noche">Noche</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-6 form-group">
+                    <label for="tecnologias">Días</label>
+                    <select class="form-control" id="dias" name="dias">
+                      <option value="jr">Lunes - Viernes</option>
+                      <option value="intermedio">Lunes - Miercoles - Viernes</option>
+                      <option value="intermedio">Martes - Jueves</option>
+                      <option value="senior">Sabados Intensivo</option>
                     </select>
                   </div>
                 </div>
@@ -40,7 +59,7 @@
                     <input class="form-control" id="phone" name="phone" placeholder="Teléfono" type="phone" required>
                   </div>
                 </div>
-                <textarea class="form-control" id="comments" name="comments" placeholder="Comentarios" rows="5"></textarea><br>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Déjanos tus comentarios" rows="5"></textarea><br>
                 <div class="row">
                   <div class="col-sm-12 form-group">
                     <button class="btn btn-default pull-right" type="submit">Enviar</button>

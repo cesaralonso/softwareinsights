@@ -6,6 +6,8 @@
     $comments = isset($_POST['comments']) ? $_POST['comments'] : null;
     $nivel = isset($_POST['nivel']) ? $_POST['nivel'] : null;
     $tecnologias = isset($_POST['tecnologias']) ? $_POST['tecnologias'] : null;
+    $horario = isset($_POST['horario']) ? $_POST['horario'] : null;
+    $dias = isset($_POST['dias']) ? $_POST['dias'] : null;
 
     if ($name === null || $email === null ||  $phone === null ||  $comments === null) {
         print_r(json_encode(array('status' => false, 'msg' => "¡Debes llenar todos los campos!" )));
@@ -16,6 +18,8 @@
             Teléfono: $phone\r\n
             Nivel: $nivel\r\n
             Tecnologías: $tecnologias\r\n
+            Horario: $horario\r\n
+            Días: $dias\r\n
             Mensaje: $comments\r\n
         ";
         $body = wordwrap($body, 70, "\r\n");

@@ -16,8 +16,8 @@
     <div class="row">
       <div class="col-sm-8">
         <h2>¿Quienes Somos?</h2><br>
-        <h4>Somos una empresa nueva y fresca, especializada en el desarrollo de software de calidad, con un equipo de profesionales con más de 10 años de experiencia en el desarrollo de software.</h4><br>
-        <p>Ubicados en el centro de Ciudad Guzmán Jalisco, la tierra de José Clemente Orozco, Consuelo Veázquez, José María Arreola Mendoza y un gran número de artistas ilustres, por los que nos sentimos orgullosos y comprometidos a mantener el renombre de Zapotlán el Grande.</p>
+        <h4>Somos una empresa nueva, fresca, especializada en el desarrollo de software de calidad, con un equipo de profesionales con más de 10 años de experiencia en el desarrollo de software.</h4><br>
+        <p>Ubicados en el centro de Ciudad Guzmán Jalisco, la tierra de José Clemente Orozco, Consuelo Veázquez, José María Arreola Mendoza y un gran número de artistas ilustres, por los que nos sentimos orgullosos y comprometidos a mantener el renombre de nuestra tierra.</p>
         <br><a href="#services" class="btn btn-default btn-lg">Conoce nuestros servicios</a>
       </div>
       <div class="col-sm-4">
@@ -37,12 +37,13 @@
         <h4><strong>Nuestros valores</strong>
           <ul>
             <li>Calidad</li>
-            <li>Responsabilidad</li>
-            <li>Disciplina</li>
-            <li>Humanidad</li>
-            <li>Respeto</li>
             <li>Innovación</li>
             <li>Libertad</li>
+            <li>Responsabilidad</li>
+            <li>Disciplina</li>
+            <li>Buen trato</li>
+            <li>Tolerancia</li>
+            <li>Respeto</li>
           </ul>
         </h4><br>
         <h4><strong>MISIÓN:</strong> Ser la empresa de desarrollo de software, capacitaciones tecnológicas y servicios de calidad más confiable para la región de Jalisco y México, garantizando siempre alta calidad y eficiencia en nuestros desarrollos y servicios.</h4><br>
@@ -62,10 +63,10 @@
       <div class="col-sm-3">
         <span class="glyphicon glyphicon-wrench logo-small"></span>
         <h4><a href="<?php echo APP_PATH; ?>servicios/software-a-la-medida">SOFTWARE A LA MEDIDA</a></h4>
-        <p>Creamos sitios web que sean los más adecuados para cubrir tus necesidades, también te ayudamos a ubicar cual es la solución perfecta para tu empresa o idea.</p>
+        <p>Creamos sitios web que sean los más adecuados para cubrir tus necesidades, también te ayudamos a ubicar cual es la solución de software ideal para tu empresa o idea.</p>
         <p>
           <ul>
-              <li>Sitios web</li>
+              <li>Sitios Web</li>
               <li>Administradores de contenido a la medida</li>
               <li>Sistemas para control de procesos internos</li>
               <li>Tiendas en linea</li>
@@ -76,7 +77,7 @@
       <div class="col-sm-3">
         <span class="glyphicon glyphicon-search logo-small"></span>
         <h4><a href="<?php echo APP_PATH; ?>servicios/seo">SEO</a></h4>
-        <p>Se aplican en un sitio web un conjunto de técnicas diseñadas específicamente para lograr la indexación del mayor número de palabras claves posibles en los buscadores más populares como Google y Bing para lograr colocar un sitio web de manera orgánica en los primeros lugares de resultados de búsquedas.</p>
+        <p>Reestructuramos tu sitio web para lograr que sea indexado por los buscadores más populares como Google y Bing para colocarlo en los primeros resultados de búsquedas.</p>
       </div>
       <div class="col-sm-3">
         <span class="glyphicon glyphicon-tasks logo-small"></span>
@@ -92,7 +93,7 @@
       <div class="col-sm-3">
         <span class="glyphicon glyphicon-blackboard logo-small"></span>
         <h4><a href="<?php echo APP_PATH; ?>servicios/capacitaciones">CAPACITACIONES</a></h4>
-        <p>Capacitamos a tu personal y a cualquier persona que desee tener conocimientos sólidos sobre tecnologías, herramientas y metodologías más utilizadas en la actualidad.</p>
+        <p>Capacitamos a tu personal con conocimientos sólidos sobre tecnologías, herramientas y metodologías más utilizadas en la actualidad para desarrollo web.</p>
       </div>
     </div>
     <br><br>
@@ -100,7 +101,7 @@
       <div class="col-sm-3">
         <span class="glyphicon glyphicon-education logo-small"></span>
         <h4><a href="<?php echo APP_PATH; ?>servicios/talleres">TALLERES</a></h4>
-        <p>Talleres de creación de aplicaciones web completas con consumo de API's y aplicaciones Híbridas.</p>
+        <p>Talleres de creación de aplicaciones web completas con consumo de API's y aplicaciones híbridas.</p>
       </div>
       <div class="col-sm-3">
         <span class="glyphicon glyphicon-eye-open logo-small"></span>

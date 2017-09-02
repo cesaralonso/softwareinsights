@@ -5,8 +5,9 @@
     <div class="row">
       <div class="col-sm-5">
         <p>Contáctanos y te responderemos lo antes posible</p>
-        <p><span class="glyphicon glyphicon-map-marker"></span> Ciudad Guzmán, Jalisco, México</p>
-        <p><span class="glyphicon glyphicon-phone"></span> +341 41-364-93</p>
+        <p><span class="glyphicon glyphicon-map-marker"></span> Federico del Toro #339, Ciudad Guzmán, Jalisco, México</p>
+        <p><span class="glyphicon glyphicon-phone"></span> (01-341) 41-2-70-30</p>
+        <p><span class="glyphicon glyphicon-phone"></span> (044) 341-124-2492</p>
         <p><span class="glyphicon glyphicon-envelope"></span> contacto@softwareinsights.com.mx</p>
       </div>
       <div class="col-sm-7 slideanim">

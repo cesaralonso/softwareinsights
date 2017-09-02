@@ -29,10 +29,11 @@ ErrorDocument 404 http://www.softwareinsights.com.mx/index.php?error=404
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^softwareinsights.com.mx [NC]
 RewriteRule ^(.*)$ http://www.softwareinsights.com.mx/$1 [L,R=301]
-RewriteBase /
-#RewriteBase /softwareinsights/
+#RewriteBase /
+RewriteBase /softwareinsights/
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
 
 RewriteRule ^servicios/([^/]+)$ index.php?view=$1
+RewriteRule ^vacantes/([^/]+)$ index.php?view=$1
 </IfModule>

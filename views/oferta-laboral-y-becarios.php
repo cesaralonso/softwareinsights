@@ -23,7 +23,7 @@
           Realiza tus prácticas profesionales, servicio social o residencias, obten experiencia, curriculum y lo más invaluable.. la práctica trabajando en un ambiente real y productivo.
         </p>
         <p>
-          Sal de tu carrera con la experiencia suficiente para afrontar cualquier reto laboral ó simplemente ¡Quédate a trabajar con nosotros!.
+          Sal de tu carrera con la experiencia suficiente para afrontar cualquier reto laboral ó simplemente ¡Quédate a trabajar con nosotros!. <strong>¡<a href="#contact">Llama o contáctanos</a>!</strong>
         </p>
       </div>
     </div>

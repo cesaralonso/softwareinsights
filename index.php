@@ -26,7 +26,7 @@
   ga('send', 'pageview');
 </script>
 
-<?php include("views/partials/".(($view === 'home' || $view === 'oferta-laboral-y-becarios') ? 'nav-main.php' : 'nav-pages.php')); ?>
+<?php include("views/partials/".(($view === 'home') ? 'nav-main.php' : (($view === 'oferta-laboral-y-becarios') ? 'nav-vacantes.php' : 'nav-pages.php'))); ?>
 
 <?php include("views/$view.php"); ?>
 

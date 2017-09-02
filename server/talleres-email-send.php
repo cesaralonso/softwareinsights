@@ -4,6 +4,8 @@
     $email = isset($_POST['email']) ? $_POST['email'] : null;
     $phone = isset($_POST['phone']) ? $_POST['phone'] : null;
     $comments = isset($_POST['comments']) ? $_POST['comments'] : null;
+    $nivel = isset($_POST['nivel']) ? $_POST['nivel'] : null;
+    $tecnologias = isset($_POST['tecnologias']) ? $_POST['tecnologias'] : null;
 
     if ($name === null || $email === null ||  $phone === null ||  $comments === null) {
         print_r(json_encode(array('status' => false, 'msg' => "¡Debes llenar todos los campos!" )));
@@ -12,12 +14,14 @@
             Nombre: $name\r\n,
             Email: $email\r\n,
             Teléfono: $phone\r\n
+            Nivel: $nivel\r\n
+            Tecnologías: $tecnologias\r\n
             Mensaje: $comments\r\n
         ";
         $body = wordwrap($body, 70, "\r\n");
         $headers = "From: $email" . "\r\n" .
                     "CC: cesar_alonso_m_g@hotmail.com";
-        mail("contacto@softwareinsights.com.mx", "Contacto desde Software Insights Webpage", $body, $headers); 
+        mail("contacto@softwareinsights.com.mx", "Contacto desde Software Insights TALLERES", $body, $headers); 
 
-        print_r(json_encode(array('status' => true, 'msg' => "¡Tu email ha sido enviado exitosamente!" )));
+        print_r(json_encode(array('status' => true, 'msg' => "¡Gracias, tus datos se han enviado exitosamente, pronto entraremos en contacto contigo!" )));
     }

@@ -1,6 +1,6 @@
 <div class="container-fluid bg-grey">
   <div class="row center-block">
-    <h2 class="text-center">Nuestros Clientes</h2>
+    <h2 class="text-center">Ellos han confiado en nosotros</h2>
     <div class="col-sm-4 col-md-3">
       <center><img src="<?php echo APP_PATH; ?>images/icode.png" alt="" class="customers-img"></center>
     </div>

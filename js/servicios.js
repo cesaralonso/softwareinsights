@@ -1,6 +1,34 @@
 
 $(document).ready(function(){
 
+
+  $("#form-talleres").submit(function(e){
+      e.preventDefault();
+
+      var $form = $(this);
+      var $inputs = $form.find("input, select, button, textarea");
+      var serializedData = $form.serialize();
+      $inputs.prop("disabled", true);
+      request = $.ajax({
+          url: "../server/talleres-email-send.php",
+          type: "post",
+          data: serializedData
+      })
+      .done(function (response, textStatus, jqXHR){
+          response = JSON.parse(response);
+          alert(response.msg);
+      })
+      .fail(function (jqXHR, textStatus, errorThrown){
+          console.error(
+              "The following error occurred: "+
+              textStatus, errorThrown
+          );
+      })
+      .always(function () {
+          $inputs.prop("disabled", false);
+      });
+  });
+
   $("#form-contact-me").submit(function(e){
       e.preventDefault();
 

@@ -10,11 +10,11 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="<?php echo (($view === 'oferta-laboral-y-becarios') ? APP_PATH.'index.php#about' : '#about'); ?>">NOSOTROS</a></li>
-        <li><a href="<?php echo (($view === 'oferta-laboral-y-becarios') ? APP_PATH.'index.php#services' : '#services'); ?>">SERVICIOS</a></li>
-        <li><a href="<?php echo (($view === 'oferta-laboral-y-becarios') ? APP_PATH.'index.php#ubicacion' : '#ubicacion'); ?>">UBICACIÓN</a></li>
-        <li <?php echo (($view === "oferta-laboral-y-becarios") ? "class='active'" : ''); ?>><a href="<?php echo APP_PATH.'servicios/oferta-laboral-y-becarios'; ?>">VACANTES</a></li>
-        <li><a href="<?php echo (($view === 'oferta-laboral-y-becarios') ? APP_PATH.'index.php#contact' : '#contact'); ?>">CONTACTO</a></li>
+        <li><a href="#about">NOSOTROS</a></li>
+        <li><a href="#services">SERVICIOS</a></li>
+        <li><a href="#ubicacion">UBICACIÓN</a></li>
+        <li><a href="#contact">CONTACTO</a></li>
+        <li><a href="<?php echo APP_PATH.'vacantes/oferta-laboral-y-becarios'; ?>">VACANTES</a></li>
       </ul>
     </div>
   </div>

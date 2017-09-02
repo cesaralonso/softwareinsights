@@ -19,9 +19,9 @@
             Mensaje: $comments\r\n
         ";
         $body = wordwrap($body, 70, "\r\n");
-        $headers = "From: $email" . "\r\n" .
-                    "CC: cesar_alonso_m_g@hotmail.com";
-        mail("contacto@softwareinsights.com.mx", "Contacto desde Software Insights TALLERES", $body, $headers); 
+        $headers = "From: contacto@softwareinsights.com.mx" . "\r\n" .
+                    "CC: flor@softwareinsights.com.mx";
+        mail("cesar_alonso_m_g@hotmail.com", "Contacto desde Software Insights TALLERES", utf8_encode($body), $headers); 
 
         print_r(json_encode(array('status' => true, 'msg' => "¡Gracias, tus datos se han enviado exitosamente, pronto entraremos en contacto contigo!" )));
     }

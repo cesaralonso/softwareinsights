@@ -9,9 +9,9 @@
             Teléfono: $phone\r\n
         ";
         $body = wordwrap($body, 70, "\r\n");
-        $headers = "From: $email" . "\r\n" .
-                    "CC: cesar_alonso_m_g@hotmail.com";
-        mail("contacto@softwareinsights.com.mx", "Contacto desde Software Insights CONTACTAR", $body, $headers); 
+        $headers = "From: contacto@softwareinsights.com.mx" . "\r\n" .
+                    "CC: flor@softwareinsights.com.mx";
+        mail("cesar_alonso_m_g@hotmail.com", "Contacto desde Software Insights CONTÁCTAME", utf8_encode($body), $headers); 
 
         print_r(json_encode(array('status' => true, 'msg' => "¡Pronto nos pondremos en contacto contigo!" )));
     }

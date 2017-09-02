@@ -21,7 +21,7 @@
         $body = wordwrap($body, 70, "\r\n");
         $headers = "From: contacto@softwareinsights.com.mx" . "\r\n" .
                     "CC: flor@softwareinsights.com.mx";
-        mail("cesar_alonso_m_g@hotmail.com", "Contacto desde Software Insights TALLERES", utf8_encode($body), $headers); 
+        mail("cesar_alonso_m_g@hotmail.com", "Contacto desde Software Insights TALLERES", utf8_decode($body), $headers); 
 
         print_r(json_encode(array('status' => true, 'msg' => "¡Gracias, tus datos se han enviado exitosamente, pronto entraremos en contacto contigo!" )));
     }

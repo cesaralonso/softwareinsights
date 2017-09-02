@@ -31,6 +31,7 @@
       "@context": "http://schema.org",
       "@type": "Organization",
       "url": "http://www.softwareinsights.com.mx",
+      "logo": "http://softwareinsights.herokuapp.com/images/insight.png",
       "name": "Software Insights",
       "contactPoint": {
         "@type": "ContactPoint",

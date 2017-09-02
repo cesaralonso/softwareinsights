@@ -2,7 +2,7 @@
 $(document).ready(function(){
 
 
-  $("#form-talleres").submit(function(e){
+  $("#talleres-email").submit(function(e){
       e.preventDefault();
 
       var $form = $(this);

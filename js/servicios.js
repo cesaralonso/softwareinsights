@@ -1,6 +1,4 @@
-
 $(document).ready(function(){
-
 
   $("#talleres-email").submit(function(e){
       e.preventDefault();
@@ -115,4 +113,4 @@ $(document).ready(function(){
     });
   });
   
-})
+});

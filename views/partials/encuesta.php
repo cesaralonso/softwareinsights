@@ -31,7 +31,7 @@
                 </div>
                 <div class="row">
                   <div class="col-sm-6 form-group">
-                    <label for="nivel">Horario</label>
+                    <label for="horario">Horario</label>
                     <select class="form-control" id="horario" name="horario">
                       <option value="manana">Mañana</option>
                       <option value="tarde">Tarde</option>
@@ -39,12 +39,12 @@
                     </select>
                   </div>
                   <div class="col-sm-6 form-group">
-                    <label for="tecnologias">Días</label>
+                    <label for="dias">Días</label>
                     <select class="form-control" id="dias" name="dias">
-                      <option value="jr">Lunes - Viernes</option>
-                      <option value="intermedio">Lunes - Miercoles - Viernes</option>
-                      <option value="intermedio">Martes - Jueves</option>
-                      <option value="senior">Sabados Intensivo</option>
+                      <option value="Lunes - Viernes">Lunes - Viernes</option>
+                      <option value="Lunes - Miércoles - Viernes">Lunes - Miércoles - Viernes</option>
+                      <option value="Martes - Jueves">Martes - Jueves</option>
+                      <option value="Sábados Intensivo">Sábados Intensivo</option>
                     </select>
                   </div>
                 </div>

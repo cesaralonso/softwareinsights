@@ -61,3 +61,4 @@
 </div>
 
 <?php include('views/partials/encuesta.php'); ?>
+<?php include('views/precios.php'); ?>

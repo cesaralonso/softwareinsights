@@ -227,12 +227,22 @@ footer .glyphicon {
 
 .carousel-indicators
 {
-  bottom: -40px;
+  bottom: -100px;
 }
 
+.carousel
+{
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
 .carousel-control .glyphicon-chevron-left
 {
   margin-left: -70px;
+}
+
+.titlemargin
+{
+  margin-top: -20px;
 }
 
 .carousel-control .glyphicon-chevron-right

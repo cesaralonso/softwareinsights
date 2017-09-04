@@ -1,7 +1,7 @@
 <!-- Own Clients -->
 <div id="clientes" class="container-fluid text-center">
   <div class="container">
-    <h2>Ellos han confiado en nosotros</h2>
+    <h2 class="titlemargin">Ellos han confiado en nosotros</h2>
     <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -9,6 +9,7 @@
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
         <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
       </ol>
 
       <!-- Wrapper for slides -->
@@ -60,6 +61,19 @@
             </div>
             <div class="col-sm-4 col-md-4">
               <center><img src="<?php echo APP_PATH; ?>images/icode.png" alt="" class="customers-img"></center>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="row center-block">
+            <div class="col-sm-4 col-md-4">
+              <center><img src="<?php echo APP_PATH; ?>images/lareja.png" alt="" class="customers-img"></center>
+            </div>
+            <div class="col-sm-4 col-md-4">
+              <center><img src="<?php echo APP_PATH; ?>images/laparrilla.png" alt="" class="customers-img"></center>
+            </div>
+            <div class="col-sm-4 col-md-4">
+              <center><img src="<?php echo APP_PATH; ?>images/realdelmar.png" alt="" class="customers-img"></center>
             </div>
           </div>
         </div>

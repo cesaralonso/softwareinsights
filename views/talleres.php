@@ -14,7 +14,7 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
-        <h2>TALLERES DE DESARROLLO DE SOFTWARE</h2><br>
+        <h2>TALLERES DE DESARROLLO DE SOFTWARE</h2>
         <h4>Aprende a desarrollar Aplicaciones Web.</h4><br>
         <p>
           Regístrate y obten un %30 de descuento en tu primer taller.
@@ -37,17 +37,19 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
-        <h2>REGLAS EN LOS TALLERES</h2><br>
+        <h2>REGLAS</h2>
         <h4>Así es como funciona nuestra metodología de aprendizaje y como nos organizamos.</h4><br>
         <p>
           <ul>
             <li>Reunimos el mínimo de 5 estudiantes para fijar una fecha de inicio.</li>
             <li>Cada taller es único ya que se desarrolla de acuerdo a las capacidades de cada estudiante.</li>
             <li>Entre todo el equipo reunido elegimos las tecnologías que deseamos reforzar y las nuevas que queremos aprender.</li>
+            <li>Pueden elegir de entre todas las <a href="http://www.softwareinsights.com.mx/servicios/capacitaciones" title="tecnologías que ofrecemos como capacitaciones en desarrollo de sofwtare en Software Insights">tecnologías que ofrecemos como capacitaciones en desarrollo de sofwtare<a>.</li>
             <li>Cada taller comienza con una idea de aplicación propuesta por el equipo y finaliza hasta haber terminado el proyecto.</li>
             <li>Cada taller tiene una duración de 48 horas.</li>
           </ul>
         </p>
+        <br>
         <h4>Ejemplo de talleres:</h4>
         <p>
             <ol>

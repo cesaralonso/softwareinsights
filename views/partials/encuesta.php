@@ -4,8 +4,8 @@
     <h2 class="text-center">¿DESEAS ENROLARTE EN NUESTROS TALLERES DE DESARROLLO DE SOFTWARE?</h2>
     <div class="row">
       <div class="col-sm-12 text-center">
-        <p>Nos encantaría saber de ti y así poder armar un grupo con personas como tu.</p>
-        <p>Déjanos tus datos y pronto estaremos en contacto contigo.</p>
+        <p>Nos encantaría que seas parte de nuetros talleres, llena la siguiente forma y así podremos armar un grupo con personas como tu.</p>
+        <p>Regístrate y pronto entraremos en contacto contigo.</p>
       </div>
       <div class="col-md-6 text-center">
         <img class="img-responsive" src="<?php echo APP_PATH."images/CARTEL_TALLERES_SEPTIEMBRE.png"?>" title="Talleres de desarrollo de software Septiembre" alt="Cartel Talleres de desarrollo de software Septiembre">
@@ -86,7 +86,6 @@
       switch(options){
         case 'jr':
               tecnologias.html( "<option>HTML5, CSS 3, JavaScript</option>" +
-                                "<option>PUG, Stylus, SASS</option>" + 
                                 "<option>PHP Básico</option>" + 
                                 "<option>Java</option>" );
         break;
@@ -98,7 +97,8 @@
                                 "<option>Cordova</option>" + 
                                 "<option>PHP Intermedio</option>" + 
                                 "<option>JQUERY</option>" + 
-                                "<option>Introducción a Android</option>" );
+                                "<option>Introducción a Android</option>" + 
+                                "<option>Java</option>" );
         break;
         case 'senior':
               tecnologias.html( "<option>Angular</option>" + 

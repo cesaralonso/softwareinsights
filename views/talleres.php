@@ -10,12 +10,45 @@
 </header>
 
 <!-- Container (About Section) -->
-<div id="about" class="container-fluid">
+<div id="" class="container-fluid">
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
-        <h2>TALLERES</h2><br>
-        <h4>Creación de aplicaciones web completas con consumo de API's.</h4><br>
+        <h2>TALLERES DE DESARROLLO DE SOFTWARE</h2><br>
+        <h4>Aprende a desarrollar Aplicaciones Web.</h4><br>
+        <p>
+          Regístrate y obten un %30 de descuento en tu primer taller.
+        </p>
+        <p>
+          Los talleres que impartimos en Software Insights están enfocados para capacitarte en el mundo laboral real, transmitiéndote el conocimiento, técnicas, metodologías y herramientas necesarias para integrarte sin complicaciones a cualquier empresa como desarrollador de software.
+        </p>
+        <p>
+          Comunicate con nosotros para saber más sobre las modalidades de Talleres y Capacitaciones.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<?php include('views/partials/encuesta.php'); ?>
+
+<!-- Container (About Section) -->
+<div id="" class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>REGLAS EN LOS TALLERES</h2><br>
+        <h4>Así es como funciona nuestra metodología de aprendizaje y como nos organizamos.</h4><br>
+        <p>
+          <ul>
+            <li>Reunimos el mínimo de 5 estudiantes para fijar una fecha de inicio.</li>
+            <li>Cada taller es único ya que se desarrolla de acuerdo a las capacidades de cada estudiante.</li>
+            <li>Entre todo el equipo reunido elegimos las tecnologías que deseamos reforzar y las nuevas que queremos aprender.</li>
+            <li>Cada taller comienza con una idea de aplicación propuesta por el equipo y finaliza hasta haber terminado el proyecto.</li>
+            <li>Cada taller tiene una duración de 48 horas.</li>
+          </ul>
+        </p>
+        <h4>Ejemplo de talleres:</h4>
         <p>
             <ol>
                 <li>Creación de aplicaciones web completas con consumo de API's' eligiendo de las siguientes tecnologías:
@@ -60,5 +93,4 @@
   </div>
 </div>
 
-<?php include('views/partials/encuesta.php'); ?>
 <?php // include('views/precios.php'); ?>

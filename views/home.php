@@ -27,7 +27,27 @@
     </div>
   </div>
 
-  <div class="container-fluid bg-grey">
+
+<!--  blog -->
+  <div id="blog" class="container-fluid bg-grey">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">         
+            <img src="<?php echo APP_PATH; ?>images/curso.jpg" alt="" class="img-thumbnail" align="left" style="width:25%;">
+            <h2 class="text-center">Ya comenzamos con los  talleres</h2> 
+            <p class="text-center">Los talleres que impartimos en Software Insights están enfocados para capacitarte en el mundo laboral real, transmitiéndote el conocimiento, técnicas, metodologías y herramientas necesarias para integrarte sin complicaciones a cualquier empresa como desarrollador de software.</p>
+            <a href="<?php echo APP_PATH; ?>servicios/talleres" class="btn btn-default btn-lg" style="margin-left: 650px;"">Talleres</a>
+        </div>
+        </div>
+      </div>
+  </div>
+
+
+
+
+
+
+  <div class="container-fluid">
   <div class="container">
     <div class="row">
       <div class="col-sm-4">
@@ -54,7 +74,7 @@
 </div>
 
 <!-- Container (Services Section) -->
-<div id="services" class="container-fluid text-center">
+<div id="services" class="container-fluid bg-grey text-center">
   <div class="container">
     <h2>SERVICIOS</h2>
     <h4>Los servicios que te ofrecemos son:</h4>

@@ -16,7 +16,7 @@
     <div class="row">
       <div class="col-sm-8">
         <h2>¿Quienes Somos?</h2><br>
-        <h4>Somos una empresa nueva, fresca, especializada en el desarrollo de software de calidad, con un equipo de profesionales con más de 10 años de experiencia en el desarrollo de software.</h4><br>
+        <h4>Somos una empresa especializada en el desarrollo de software de calidad, con un equipo de profesionales con más de 10 años de experiencia en el desarrollo de software.</h4><br>
         <p>Ubicados en el centro de Ciudad Guzmán Jalisco, la tierra de José Clemente Orozco, Consuelo Veázquez, José María Arreola Mendoza y un gran número de artistas ilustres, por los que nos sentimos orgullosos y comprometidos a mantener el renombre de nuestra tierra.</p>
         <br><a href="#services" class="btn btn-default btn-lg">Conoce nuestros servicios</a>
       </div>
@@ -27,7 +27,7 @@
     </div>
   </div>
 
-  <div class="container-fluid bg-grey">
+  <div class="container-fluid">
   <div class="container">
     <div class="row">
       <div class="col-sm-4">
@@ -41,13 +41,27 @@
             <li>Libertad</li>
             <li>Responsabilidad</li>
             <li>Disciplina</li>
-            <li>Buen trato</li>
             <li>Tolerancia</li>
             <li>Respeto</li>
           </ul>
         </h4><br>
-        <h4><strong>MISIÓN:</strong> Ser la empresa de desarrollo de software, capacitaciones tecnológicas y servicios de calidad más confiable para la región de Jalisco y México, garantizando siempre alta calidad y eficiencia en nuestros desarrollos y servicios.</h4><br>
-        <h4><p><strong>VISIÓN:</strong> Posicionarnos mundialmente como una empresa de desarrollo de software de alta calidad, generando confianza y enalteciendo nuestras raices.</p></h4>
+        <h4><strong>MISIÓN:</strong> Ser la empresa de desarrollo de software, capacitaciones tecnológicas y servicios IT de calidad más confiable y eficiente para la región de Jalisco y México.</h4><br>
+        <h4><strong>VISIÓN:</strong> Posicionarnos mundialmente como una empresa de desarrollo de software de alta calidad, generando confianza y enalteciendo nuestras raices.</h4>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-grey">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="<?php echo APP_PATH; ?>images/talleres_grupo.jpg" alt="" class="slideanim img-responsive">
+      </div>
+      <div class="col-sm-8">
+        <h2><strong>¡Iniciamos talleres de desarrollo de software!</strong></h2>
+        <p>Inauguramos este 6 de Noviembre del 2017 los talleres de desarrollo de software con 3 grupos y 3 aplicaciones que comienzan a desarrollarse.</p>
+        <p>¿Qué esperas? <i><strong>¡Solo faltas tu!, <a href="<?php echo APP_PATH; ?>servicios/talleres">¡Inscríbete ahora mismo!</a></strong></i></p>
       </div>
     </div>
   </div>
@@ -64,31 +78,18 @@
         <span class="glyphicon glyphicon-wrench logo-small"></span>
         <h4><a href="<?php echo APP_PATH; ?>servicios/software-a-la-medida">SOFTWARE A LA MEDIDA</a></h4>
         <p>Creamos sitios web que sean los más adecuados para cubrir tus necesidades, también te ayudamos a ubicar cual es la solución de software ideal para tu empresa o idea.</p>
-        <p>
-          <ul>
-              <li>Sitios Web</li>
-              <li>Administradores de contenido a la medida</li>
-              <li>Sistemas para control de procesos internos</li>
-              <li>Tiendas en linea</li>
-              <li>Apps móviles e híbridas</li>
-          </ul>
-        </p>
+      </div>
+      <div class="col-sm-3">
+        <span class="glyphicon glyphicon-education logo-small"></span>
+        <h4><a href="<?php echo APP_PATH; ?>servicios/talleres">TALLERES DE DESARROLLO DE SOFTWARE</a></h4>
+        <p>Talleres de desarrollo de software.</p>
+        <p>Aprende el proceso completo de creación de aplicaciones web y aplicaciones híbridas.</p>
+        <p>Los talleres que impartimos en Software Insights están enfocados para capacitarte en el mundo laboral real, transmitiéndote el conocimiento, técnicas, metodologías y herramientas necesarias para integrarte sin complicaciones a cualquier empresa como desarrollador de software. </p>
       </div>
       <div class="col-sm-3">
         <span class="glyphicon glyphicon-search logo-small"></span>
         <h4><a href="<?php echo APP_PATH; ?>servicios/seo">SEO</a></h4>
         <p>Reestructuramos tu sitio web para lograr que sea indexado por los buscadores más populares como Google y Bing para colocarlo en los primeros resultados de búsquedas.</p>
-      </div>
-      <div class="col-sm-3">
-        <span class="glyphicon glyphicon-tasks logo-small"></span>
-        <h4><a href="<?php echo APP_PATH; ?>servicios/hosting-y-dominios">HOSTING Y DOMINIOS</a></h4>
-        <p>Servicio de venta y manejo de renta de hosting.</p>
-          <ul>
-            <li>Configuración de servidores dedicados</li>
-            <li>Configuración de servidores Apache con Linux</li>
-            <li>Configuración de servidores para hospedar aplicaciones Node con Digital Ocean</li>
-          </ul>
-        <p>Administración, renta y sugerencias de dominios.</p>
       </div>
       <div class="col-sm-3">
         <span class="glyphicon glyphicon-blackboard logo-small"></span>
@@ -99,9 +100,10 @@
     <br><br>
     <div class="row slideanim">
       <div class="col-sm-3">
-        <span class="glyphicon glyphicon-education logo-small"></span>
-        <h4><a href="<?php echo APP_PATH; ?>servicios/talleres">TALLERES</a></h4>
-        <p>Talleres de creación de aplicaciones web completas con consumo de API's y aplicaciones híbridas.</p>
+        <span class="glyphicon glyphicon-tasks logo-small"></span>
+        <h4><a href="<?php echo APP_PATH; ?>servicios/hosting-y-dominios">HOSTING Y DOMINIOS</a></h4>
+        <p>Servicio de venta y manejo de renta de hosting.</p>
+        <p>Administración, renta y sugerencias de dominios.</p>
       </div>
       <div class="col-sm-3">
         <span class="glyphicon glyphicon-eye-open logo-small"></span>

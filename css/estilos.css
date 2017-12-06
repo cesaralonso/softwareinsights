@@ -401,3 +401,23 @@ footer .glyphicon {
     background-color: #222;
     border-color: #000
 }
+
+.redes-sociales {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.redes-sociales li {
+    width:28px; 
+    background: #aaa; 
+    border-radius: 45px;
+}

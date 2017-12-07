@@ -25,33 +25,36 @@
         <div class="collapse navbar-collapse" id="myNavbar2">
           <ul class="nav navbar-nav navbar-center">
             <li><a href="<?php echo APP_PATH; ?>servicios/talleres">SOFTWARE DEVELOPER FULLSTACK</a></li>
-            <li><a href="<?php echo APP_PATH.'servicios/talleres/ux-design'; ?>">UX DESIGN</a></li>
+            <li><a href="<?php echo APP_PATH.'servicios/talleres/curso-jr'; ?>">CURSO SOFTWARE DEVELOPER FULLSTACK JR</a></li>
+            <li><a href="<?php echo APP_PATH.'servicios/talleres/curso-semi-senior'; ?>">CURSO SOFTWARE DEVELOPER FULLSTACK SEMI-SENIOR</a></li>
+            <li><a href="<?php echo APP_PATH.'servicios/talleres/curso-senior'; ?>">CURSO SOFTWARE DEVELOPER FULLSTACK SENIOR</a></li>
+            <li><a href="<?php echo APP_PATH.'servicios/talleres/curso-principios'; ?>">CURSO PRINCIPIOS DE DESARROLLO WEB</a></li>
+            <li><a href="<?php echo APP_PATH.'servicios/talleres/ux-design'; ?>">CURSO DESARROLLO DE PRODUCTOS DIGITALES</a></li>           
           </ul>
         </div>
       </div>
     </nav>
-
     <div class="row py-3">
       <div class="col-sm-12">
-        <h2 class="py-3">CURSO INTENSIVO UX DESIGN</h2>
+        <h2 class="py-3">CURSO DESARROLLO DE PRODUCTOS DIGITALES</h2>
         <h4>Aprende a desarrollar experiencias de usuario y diseños de interfaces para aplicaciones móviles y web</h4><br>
         <p>
-          Regístrate antes del 31 de Diciembre del 2017 y obten un %30 de descuento.
+          Regístrate antes del 31 de Diciembre del 2017 y obten un 25% de descuento.
         </p>
       </div>
 
       <div class="col-md-12">
-        <h2 class="py-3"><strong>¡Inscríbete al primer taller de UX Design!</strong></h2>
+        <h2 class="py-3"><strong>¡Inscríbete al primer curso desarrollo de productos digitales!</strong></h2>
         <p>UX Design (User Experience Design) o “Diseño de Experiencia de Usuario” es una filosofía de diseño que tiene por objetivo la creación de productos que resuelvan necesidades concretas de sus usuarios finales, consiguiendo la mayor satisfacción y mejor experiencia de uso posible con el mínimo esfuerzo.</p>
-        <p>Curso intensivo, 6 horas diarias, los días 19, 20 y 21 de Enero del 2018.</p>
-        <p>Costo: $999 pesos mexicanos.</p>
-        <p>¡Aparta tu lugar! <i><strong>¡Inscríbete antes del 31 de Diciembre del 2017 a un precio especial!, <a href="<?php echo APP_PATH; ?>servicios/talleres/ux-design">¡Inscríbete ahora mismo!</a></strong></i></p>
+        <p>Curso intensivo, duración del curso 3 semanas (36 horas), 4 horas diarias, semana 1 los días 19, 20 y 21 de Enero del 2018, semana 2 los días 26, 27 y 28 de enero del 2018 y semana 3 los días 1, 2 y 3 de febrero del 2018.</p>
+        <p>Costo: $2499 pesos mexicanos.</p>
+        <p>¡Aparta tu lugar! <i><strong>¡Inscríbete antes del 31 de Diciembre del 2017 y obtén un 25% de descuento!, <a href="<?php echo APP_PATH; ?>servicios/talleres/ux-design">¡Inscríbete ahora mismo!</a></strong></i></p>
       </div>
     </div>
 
-    <div class="row py-3">
+    <div class="row py-3 bg-grey">
       <div class="col-md-8 offset-2 py-3 ">
-          <h1 class="py-3">¿Qué es UX?</h1>
+          <h1 class="py-3" style="color: #000;">¿Qué es UX?</h1>
           <p>UX (por sus siglas en inglés User Experience o en español Experiencia de Usuario) 
               es aquello que una persona percibe al interactuar con un producto o servicio.
               Logramos una buena UX al enfocarnos en diseñar productos útiles, usables y deseables, 
@@ -83,7 +86,7 @@
               <br>*Diseño Industrial, Gráfico 
               <br>*Conoce, las 10 habilidades que un UX Designer debe tener.
           </p>       
-          <h1 class="py-3">¿Qué es UI?</h1>
+          <h1 class="py-3" style="color: #000;">¿Qué es UI?</h1>
           <p> UI (por sus siglas en inglés User Interface) o en español 
               Interfaz del Usuario, es la vista que permite a un usuario interactuar de manera 
               efectiva con un sistema.
@@ -110,7 +113,7 @@
               <br>8.- Diseño industrial
               <br>9.- Tecnología, Desarrollo de Productos Digitales
           </p>
-          <h1>En conclusión</h1>
+          <h1 style="color: #000;">En conclusión</h1>
           <p>
               Una buena UI nos permite dar una buena UX.
           </p>
@@ -129,6 +132,87 @@
               <br>https://pmqlinkedin.wordpress.com/about/que-es-el-diseno-ux/                    
           </p>
       </div>
+  </div>
+  <div class="row py-3">
+    <div class="col-md-8 offset-2 py-3 ">
+      <h1 class="py-3" style="color: #000">Descripción del curso</h1> <br>
+      <p>
+        Los productos digitales se están comiendo al mundo y es por eso que en este curso aprenderemos a crear experiencias que tus usuarios amen; desde la concepción de la idea, investigación y flujos de usuario hasta aprender como diseñar un producto atractivo y funcional.
+      </p>
+      <p>
+        Este curso será divido en 2 sesiones, UX (Experiencia de usuario) y UI (User Interface).
+      </p>
+      <p><strong>Temario</strong> </p>
+      <ul>
+        <dt><strong>1. Introducción a UX</strong>
+          <ol>
+            <li type="a">De donde viene UX</li>
+            <li type="a">Overview del Proyecto</li>
+          </ol>
+        </dt>
+        <dt><strong>2. User Research.</strong>
+          <ol>
+            <li type="a">Benchmark: Conociendo el mercado</li>
+            <li type="a">Research: Conociendo las necesidades del usuario</li>
+            <li type="a">Customer Journey: ¿Qué hará nuestro usuario, cuál es su objetivo?</li>
+            <li type="a">Diseño de proto-personas, Pensando en el usuario ideal</li>
+            <li type="a">Stories: Narrativa (Casos de uso)</li>
+            <li type="a">Definiendo el MVP (Producto Mínimo Viable) del proyecto</li>
+          </ol>
+        </dt>
+        <dt><strong>3. Interfáz de usuario y Arquitectura de la Información.</strong>
+          <ol>
+            <li type="a">Arquitectura de la información</li>
+            <li type="a">Priorizando funcionalidades</li>
+            <li type="a">Empty states y OnBoarding</li>
+            <li type="a">Microinteracciones</li>
+            <li type="a">Principios fundamentales del diseño de producto</li>
+          </ol>
+        </dt>
+        <dt><strong>4. Wireframe y prototipado.</strong>
+          <ol>
+            <li type="a">Estructura de wireframes</li>
+            <li type="a">Flujo de wireframes</li>
+            <li type="a">Wireframes digitales de baja fidelidad</li>
+          </ol>
+        </dt>
+        <dt><strong>5. Diseño visual.</strong>
+          <ol>
+            <li type="a">Wireframes de alta fidelidad</li>
+            <li type="a">Prototipos interactivos</li>
+            <li type="a">Testing con usuarios</li>
+            <li type="a">Research visual</li>
+            <li type="a">Diseñando la parte “bonita” de la aplicación</li>
+            <li type="a">Herramientas digitales de diseño</li>
+            <li type="a">Styleguides</li>
+            <li type="a">Patrones de diseño e interfaces de usuario</li>
+          </ol>
+        </dt>
+      </ul> 
+      <p>Este curso se llevará a cabo en 2 sesiones las cuales serán divididas como se presenta a continuación:</p>
+      <p>
+      <strong>Fase 1, Definiendo el MVP:</strong> <br>
+        En esta fase veremos el punto 2,3 y 4, donde llevaremos la concepción de la idea hasta conseguir la estructura base de nuestra aplicación basándonos en la arquitectura de la información y definiendo funcionalidades.
+      </p> 
+      <p>
+      <strong>Fase 2, Diseñando la parte “Bonita” de nuestro producto:</strong> <br>
+        En esta fase conoceremos los principios y patrones de diseño en productos digitales, styleguides y herramientas que nos ayudarán a llevar nuestros prototipos a la vida real.
+      </p>
+    </div>
+  </div>
+  <div class="row py-3">
+    <div class="col-md-8 offset-2 py-3 ">
+    <h3>Ponentes</h3>
+    <p>
+      Hola, soy <strong>Omar Martínez Lugo</strong>, graduado de la Universidad Tecnología de Tijuana como Ingeniero en Tecnologías de la Información y Comunicación, actualmente tengo 27 años y más de 5 en la industria de desarrollo de productos digitales; Actualmente me desenvuelvo como <strong>líder del departamento de diseño UX/UI</strong> en la empresa Cargosprint, una empresa americana dedicada al giro de cargo. He trabajado en empresas multinacionales como Grupo Qualtop, 3DRobotics y Plantronics México.
+    </p>
+    <p>
+      Durante mi proceso de formación académica y profesional he pasado por diferentes circunstancias que me han llevado a donde estoy ahora, empezando como Back-End developer (PHP, NodeJS) terminando la universidad, ahí me di cuenta que lo mío era más a que se viera bien una aplicación pasándome así a Front-End Developer (HTML, CSS y demasiado Javascript), lo que me llevo a que no solo se debe de ver bonito, si no que tiene que ser funcional, pensar en el usuario, sus conocimientos tecnológicos, culturales y más.
+    </p>
+    <p>
+      Me considero una persona altamente proactiva, siempre aprendiendo, conociendo las nuevas tendencias en desarrollo y diseño de productos digitales, implementando mejores prácticas y capacitándome de los mejores; Como todo geek, me considero fanático a los videojuegos, (FIFA en especial), series, star wars y DC Comics.
+    </p>
+    </div>
   </div>
 </div>
 

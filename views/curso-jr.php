@@ -37,19 +37,45 @@
 
     <div class="row py-3">
       <div class="col-sm-12">
-        <h2>TALLERES DE DESARROLLO DE SOFTWARE</h2>
-        <h4>Aprende a desarrollar Aplicaciones Web.</h4><br>
+        <h2>CURSO SOFTWARE DEVELOPER FULLSTACK JR</h2>
+        <h3>Especificaciones del curso</h3>
+        <p>Curso dedicado a todos aquellos que deseen obtener conocimientos básicos de programación web.</p>
+        <h3>Tecnologias a ver en el curso</h3>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>BOOTSTRAP4</li>
+          <li>PHP</li>
+          <li>JQUERY</li>
+          <li>MYSQL</li>
+        </ul>
+        <h3>¿Que aprenderé?</h3>
+        <ul>
+          <li>
+            Utilizar el HTML5 y CSS3 para crear sitios web bien estructurados.
+          </li>
+          <li>    
+            Crear páginas web con los estándares actuales de HTML5
+          </li>
+          <li>
+            Integrar HTML con Bootstrap 4
+          </li>
+          <li>
+            Crear un sitio web completo con Bootstrap 4
+          </li>
+          <li>
+           Enviar formularios de contacto con PHP
+          </li>
+        </ul>
+        <h3>¿Que lograré?</h3>
+        <p>Al finalizar el curso, tendras los conocimientos necesarios para obtener un empleo como desarrollador web.</p>
+        <h3>¿Que obtendré?</h3>
         <p>
-          Regístrate y obten un 30% de descuento en tu primer taller. 
+          Certificado con validez curricular.
         </p>
+        <h3>Costo y duración</h3>
         <p>
-          Iniciamos cursos el 6 de enero del 2018.
-        </p>
-        <p>
-          Los talleres que impartimos en Software Insights están enfocados para capacitarte en el mundo laboral, transmitiéndote el conocimiento, técnicas, metodologías y herramientas necesarias para integrarte sin complicaciones a cualquier empresa como desarrollador de software.
-        </p>
-        <p>
-          Comunicate con nosotros para saber más sobre las modalidades de Talleres y Capacitaciones.
+          $1,000.00 pesos mexicanos y con duracion de 30 horas equivalente a un mes y medio.
         </p>
       </div>
     </div>

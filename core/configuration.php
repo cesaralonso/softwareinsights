@@ -53,6 +53,10 @@ switch($view) {
         $title = "Desarrollo de Software en Ciudad Guzmán";
         $description = "Creamos sitios web que sean los más adecuados para cubrir tus necesidades, también te ayudamos a ubicar cual es la solución perfecta para tu empresa o idea.";
     break;
+    case "ux-design":
+        $title = "UX Design, Curso Intensivo de UX Design, Software Insights";
+        $description = "UX Design (User Experience Design) o “Diseño de Experiencia de Usuario” es una filosofía de diseño que tiene por objetivo la creación de productos que resuelvan necesidades concretas de sus usuarios finales, consiguiendo la mayor satisfacción y mejor experiencia de uso posible con el mínimo esfuerzo.";
+    break;
     default:
         $title = "Desarrollo de Software en Ciudad Guzmán";
         $description = "Creamos sitios web que sean los más adecuados para cubrir tus necesidades, también te ayudamos a ubicar cual es la solución perfecta para tu empresa o idea.";

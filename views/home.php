@@ -17,7 +17,7 @@
       <div class="col-sm-8">
         <h2>¿Quienes Somos?</h2><br>
         <h4>Somos una empresa especializada en el desarrollo de software de calidad, con un equipo de profesionales con más de 10 años de experiencia en el desarrollo de software.</h4><br>
-        <p>Ubicados en el centro de Ciudad Guzmán Jalisco, la tierra de José Clemente Orozco, Consuelo Veázquez, José María Arreola Mendoza y un gran número de artistas ilustres, por los que nos sentimos orgullosos y comprometidos a mantener el renombre de nuestra tierra.</p>
+        <p>Ubicados en el centro de Ciudad Guzmán Jalisco, la tierra de José Clemente Orozco, Consuelo Velázquez, José María Arreola Mendoza y un gran número de artistas ilustres, por los que nos sentimos orgullosos y comprometidos a mantener el renombre de nuestra tierra.</p>
         <br><a href="#services" class="btn btn-default btn-lg">Conoce nuestros servicios</a>
       </div>
       <div class="col-sm-4">
@@ -54,9 +54,27 @@
 
 <div class="container-fluid bg-grey">
   <div class="container">
+  
+    <h2>NOTICIAS</h2>
+
+    <h4>6 DE DICIEMBRE DEL 2017</h4>
     <div class="row">
       <div class="col-sm-4">
-        <img src="<?php echo APP_PATH; ?>images/talleres_grupo.jpg" alt="" class="slideanim img-responsive">
+        <img src="<?php echo APP_PATH; ?>images/que-es-ux.jpg" alt="Que es UX" class="slideanim img-responsive">
+      </div>
+      <div class="col-sm-8">
+        <h2><strong>¡Inscríbete al primer taller de UX Design!</strong></h2>
+        <p>UX Design (User Experience Design) o “Diseño de Experiencia de Usuario” es una filosofía de diseño que tiene por objetivo la creación de productos que resuelvan necesidades concretas de sus usuarios finales, consiguiendo la mayor satisfacción y mejor experiencia de uso posible con el mínimo esfuerzo.</p>
+        <p>Curso intensivo, 6 horas diarias, los días 19, 20 y 21 de Enero del 2018.</p>
+        <p>Costo: $999 pesos mexicanos.</p>
+        <p>¡Aparta tu lugar! <i><strong>¡Inscríbete antes del 31 de Diciembre del 2017 a un precio especial!, <a href="<?php echo APP_PATH; ?>servicios/talleres/ux-design">¡Inscríbete ahora mismo!</a></strong></i></p>
+      </div>
+    </div>
+    <hr>
+    <h4>6 DE NOVIEMBRE DEL 2017</h4>
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="<?php echo APP_PATH; ?>images/talleres_grupo.jpg" alt="Alumnos de primer tempporada de talleres" class="slideanim img-responsive">
       </div>
       <div class="col-sm-8">
         <h2><strong>¡Iniciamos talleres de desarrollo de software!</strong></h2>

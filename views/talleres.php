@@ -12,7 +12,26 @@
 <!-- Container (About Section) -->
 <div id="" class="container-fluid">
   <div class="container">
-    <div class="row">
+
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar2">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar2">
+          <ul class="nav navbar-nav navbar-center">
+            <li><a href="<?php echo APP_PATH; ?>servicios/talleres">SOFTWARE DEVELOPER FULLSTACK</a></li>
+            <li><a href="<?php echo APP_PATH.'servicios/talleres/ux-design'; ?>">UX DESIGN</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="row py-3">
       <div class="col-sm-12">
         <h2>TALLERES DE DESARROLLO DE SOFTWARE</h2>
         <h4>Aprende a desarrollar Aplicaciones Web.</h4><br>
@@ -20,7 +39,7 @@
           Regístrate y obten un %30 de descuento en tu primer taller.
         </p>
         <p>
-          Los talleres que impartimos en Software Insights están enfocados para capacitarte en el mundo laboral real, transmitiéndote el conocimiento, técnicas, metodologías y herramientas necesarias para integrarte sin complicaciones a cualquier empresa como desarrollador de software.
+          Los talleres que impartimos en Software Insights están enfocados para capacitarte en el mundo laboral, transmitiéndote el conocimiento, técnicas, metodologías y herramientas necesarias para integrarte sin complicaciones a cualquier empresa como desarrollador de software.
         </p>
         <p>
           Comunicate con nosotros para saber más sobre las modalidades de Talleres y Capacitaciones.

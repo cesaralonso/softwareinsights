@@ -34,4 +34,5 @@ RewriteCond %{SCRIPT_FILENAME} !-f
 
 RewriteRule ^servicios/([^/]+)$ index.php?view=$1
 RewriteRule ^vacantes/([^/]+)$ index.php?view=$1
+RewriteRule ^servicios/talleres/([^/]+)$ index.php?view=$1
 </IfModule>

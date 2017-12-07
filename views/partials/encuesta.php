@@ -21,6 +21,7 @@
                       <option value="jr">Jr.</option>
                       <option value="intermedio">Intermedio</option>
                       <option value="senior">Senior</option>
+                      <option value="ux">UX Designer</option>
                     </select>
                   </div>
                   <div class="col-sm-6 form-group">
@@ -109,6 +110,9 @@
                                 "<option>PHP Avanzado</option>" + 
                                 "<option>Laravel</option>" + 
                                 "<option>Loopback</option>" );
+        break;
+        case 'ux':
+              tecnologias.html( "<option>Ux Design</option>" );
         break;
       }
     });

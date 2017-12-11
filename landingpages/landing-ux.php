@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/estilo.css">
-    <title>Crea tu sitio web</title>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <title>Desarrollo de Productos Digitales</title>
   </head>
   <body>
     <div class="container ">
@@ -13,28 +13,34 @@
         <div class="col-sm-12 myform-cont">
           <div class="myform-top p-3 mb-2 text-black">
             <div class="myform-top-left">
-              <h1 class="text-center">Creamos tu sitio web</h1>
+              <h1 class="text-center">Nuevo Curso "Desarrollo de Productos Digitales"</h1>
             </div>
             <div class="myform-top-right">
             </div>
           </div>
           <div class="row p-3 mb-2 text-black">
-            <div class="col-md-3 offset-1">
+            <div class="col-md-4">
               <div class="row">
                 <div class="col-md-12 p-3 mb-2 bg-warning text-black rounded">
-                  <h2 class="text-center">PROMOCIÓN</h2>
-                   <i class="fa fa-check-circle-o py-3" aria-hidden="true"> Diseño responsivo</i>
-                  <br> <i class="fa fa-check-circle-o py-1" aria-hidden="true"> Hasta 7 paginas</i>
-                  <br> <i class="fa fa-check-circle-o py-3" aria-hidden="true"> 1 año de hosting y dominio</i>
-                  <br> <i class="fa fa-check-circle-o py-1" aria-hidden="true"> Hasta 3 correos empresariales</i>
-                  <br> <i class="fa fa-check-circle-o py-3" aria-hidden="true"> Código validado por la WTC</i>
-                  <br> <i class="fa fa-check-circle-o py-1" aria-hidden="true"> Formularios de envió de contacto por correo</i> <br>
-                       <i class="fa fa-check-circle-o py-3" aria-hidden="true"> Optimización del sitio web</i> <br>
-                       <h2>Por tan solo $4,999.00</h2>
+                <br><h3>Este curso estará dividido en 3 partes que harán nuestra aplicación totalmente funcional</h3>
+                       <i class="fa fa-check-circle-o py-3" aria-hidden="true"> Diseño de experiencia de usuario e interfaces</i> <br>
+                       <i class="fa fa-check-circle-o py-3" aria-hidden="true"> Programación Front-End (HTML, CSS, Javascript)</i> <br>
+                       <i class="fa fa-check-circle-o py-3" aria-hidden="true"> Programación Back-End (NodeJS)</i> <br>
+                  <h2>Temas del curso</h2>
+                   <i class="fa fa-check-circle-o py-3" aria-hidden="true"> Introducción a UX</i>
+                  <br> <i class="fa fa-check-circle-o py-1" aria-hidden="true"> User Research</i>
+                  <br> <i class="fa fa-check-circle-o py-3" aria-hidden="true"> Interfaz de usuario y Arquitectura de la Información</i>
+                  <br> <i class="fa fa-check-circle-o py-1" aria-hidden="true"> Wireframe y prototipado</i>
+                  <br> <i class="fa fa-check-circle-o py-3" aria-hidden="true"> Diseño visual</i>
+                  
+                       <h2>Inscríbete antes del 31 de Diciembre al precio de $2,000.00 MX por el curso completo</h2>
                 </div>
               </div>
             </div>
             <div class="col-md-6 offset-1">
+              <div>
+              <img src="http://info.danthop.com/hubfs/UX-banner-blog.jpg" alt="UX/UI" class="img-thumbnail">
+              </div>  
               <div class="row">
                 <div class="col-md-12">
                     <h2 class="text-center">¡Ponte en contacto!</h2>
@@ -60,7 +66,7 @@
               </div>
               <div class="row">
                 <div class="col-md-12">
-                  <button class="btn btn-primary btn-lg btn-block">Lo quiero ya!!!!</button>  <br>
+                  <button class="btn btn-primary btn-lg btn-block">Registrarme!!</button>  <br>
                 </div>
               </div>
             </div>

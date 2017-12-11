@@ -8,21 +8,20 @@
     <title>Crea tu sitio web</title>
   </head>
   <body>
-    <div class="container">
-      <div class="row py-5">
+    <div class="container ">
+      <div class="row py-5 ">
         <div class="col-sm-12 myform-cont">
-          <div class="myform-top">
+          <div class="myform-top p-3 mb-2 text-black">
             <div class="myform-top-left">
               <h1 class="text-center">Creamos tu sitio web</h1>
             </div>
             <div class="myform-top-right">
-              <i class="fa fa-globe"></i>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-6">
+          <div class="row p-3 mb-2 text-black">
+            <div class="col-md-3 offset-1">
               <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 p-3 mb-2 bg-warning text-black rounded">
                   <h2 class="text-center">PROMOCIÓN</h2>
                    <i class="fa fa-check-circle-o py-3" aria-hidden="true"> Diseño responsivo</i>
                   <br> <i class="fa fa-check-circle-o py-1" aria-hidden="true"> Hasta 7 paginas</i>
@@ -31,39 +30,39 @@
                   <br> <i class="fa fa-check-circle-o py-3" aria-hidden="true"> Código validado por la WTC</i>
                   <br> <i class="fa fa-check-circle-o py-1" aria-hidden="true"> Formularios de envió de contacto por correo</i> <br>
                        <i class="fa fa-check-circle-o py-3" aria-hidden="true"> Optimización del sitio web</i> <br>
-                       <h3>Por tan solo $4,999.00</h3>     
+                       <h2>Por tan solo $4,999.00</h2>
                 </div>
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 offset-1">
               <div class="row">
                 <div class="col-md-12">
-                    <h2 class="text-center">Ponte en contacto!!</h2>  
+                    <h2 class="text-center">¡Ponte en contacto!</h2>
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-12">
-                  <label for="nombre">Nombre completo:</label>
-                  <input type="text" class="form-control" id="nombre" placeholder="Nombre">  
+                  <label for="nombre" class="font-weight-bold">Nombre completo:</label>
+                  <input type="text" class="form-control" id="nombre" placeholder="Nombre">
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-12">
-                  <label for="nombre">Correo electronico:</label>
-                  <input type="email" class="form-control" id="email" placeholder="E-mail">  
+                  <label for="nombre" class="font-weight-bold">Correo electronico:</label>
+                  <input type="email" class="form-control" id="email" placeholder="E-mail">
                 </div>
-              </div>  
+              </div>
               <div class="row">
                 <div class="col-md-12">
-                  <label for="nombre">Telefono:</label>
-                  <input type="text" class="form-control" id="telefono" placeholder="Telefono"> <br> 
+                  <label for="nombre" class="font-weight-bold">Telefono:</label>
+                  <input type="text" class="form-control" id="telefono" placeholder="Telefono"> <br>
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-12">
                   <button class="btn btn-primary btn-lg btn-block">Lo quiero ya!!!!</button>  <br>
                 </div>
-              </div>              
+              </div>
             </div>
           </div>
         </div>

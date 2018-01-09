@@ -65,6 +65,10 @@ switch($view) {
         $title = "Curso dedicado a todos aquellos que deseen obtener conocimientos básicos sobre paginas web.";
         $description = "Al finalizar el curso, tendras los conocimientos necesarios para obtener un empleo como desarrollador web.";
     break;
+    case "soporte-tecnico":
+    $title = "Soporte Técnico, Mantenimiento Preventivo y Correctivo de Equipo de Cómputo en Ciudad Guzmán.";
+    $description = "Soporte Técnico, Mantenimiento Preventivo y Correctivo de Equipo de Cómputo en Ciudad Guzmán.";
+break;
     default:
         $title = "Desarrollo de Software en Ciudad Guzmán";
         $description = "Creamos sitios web que sean los más adecuados para cubrir tus necesidades, también te ayudamos a ubicar cual es la solución perfecta para tu empresa o idea.";

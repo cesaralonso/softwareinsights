@@ -16,7 +16,7 @@
         <li <?php echo (($view === "talleres") ? "class='active'" : ''); ?>><a href="<?php echo APP_PATH; ?>servicios/talleres">TALLERES</a></li>
         <li <?php echo (($view === "capacitaciones") ? "class='active'" : ''); ?>><a href="<?php echo APP_PATH; ?>servicios/capacitaciones">CAPACITACIONES</a></li>
         <li <?php echo (($view === "diseno-web-y-movil") ? "class='active'" : ''); ?>><a href="<?php echo APP_PATH; ?>servicios/diseno-web-y-movil">DISEÑO WEB Y MÓVIL</a></li>
-        <li <?php echo (($view === "outsourcing") ? "class='active'" : ''); ?>><a href="<?php echo APP_PATH; ?>servicios/outsourcing">OUTSOURCING</a></li>
+        <li <?php echo (($view === "soporte-tecnico") ? "class='active'" : ''); ?>><a href="<?php echo APP_PATH; ?>servicios/soporte-tecnico">SOPORTE TÉCNICO</a></li>
         <li <?php echo (($view === "hosting-y-dominios") ? "class='active'" : ''); ?>><a href="<?php echo APP_PATH; ?>servicios/hosting-y-dominios">HOSTING Y DOMINIOS</a></li>
         <li <?php echo (($view === "consultorias") ? "class='active'" : ''); ?>><a href="<?php echo APP_PATH; ?>servicios/consultorias">CONSULTORIAS</a></li>
       </ul>

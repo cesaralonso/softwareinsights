@@ -24,8 +24,9 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar2">
           <ul class="nav navbar-nav navbar-center">
-            <li><a href="<?php echo APP_PATH; ?>servicios/talleres">SOFTWARE DEVELOPER FULLSTACK</a></li>
-            <li><a href="<?php echo APP_PATH.'servicios/talleres/ux-design'; ?>">UX DESIGN</a></li>
+            <li><a href="<?php echo APP_PATH; ?>servicios/talleres/curso-desarrollador-de-software-full-stack">CURSO DESARROLLADOR DE SOFTWARE FULLSTACK</a></li>
+            <li><a href="<?php echo APP_PATH.'servicios/talleres/ux-design'; ?>">CURSO DESARROLLO DE PRODUCTOS DIGITALES / UX DESIGN</a></li>
+            <li><a href="<?php echo APP_PATH.'servicios/talleres/curso-principios-de-programacion-web'; ?>">CURSO PRINCIPIOS DE PROGRAMACIÓN WEB</a></li>
           </ul>
         </div>
       </div>
@@ -33,10 +34,10 @@
 
     <div class="row py-3">
       <div class="col-sm-12">
-        <h2>TALLERES DE DESARROLLO DE SOFTWARE</h2>
-        <h4>Aprende a desarrollar Aplicaciones Web.</h4><br>
+        <h2>CURSOS DE DESARROLLO DE SOFTWARE</h2>
+        <h4>Aprende a desarrollar aplicaciones web y móviles </h4><br>
         <p>
-          Regístrate y obten un %30 de descuento en tu primer taller.
+          Regístrate y pregunta por nuestras promociones en nuestros cursos.
         </p>
         <p>
           Los talleres que impartimos en Software Insights están enfocados para capacitarte en el mundo laboral, transmitiéndote el conocimiento, técnicas, metodologías y herramientas necesarias para integrarte sin complicaciones a cualquier empresa como desarrollador de software.

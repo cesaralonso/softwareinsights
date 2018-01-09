@@ -54,12 +54,21 @@ switch($view) {
         $description = "Creamos sitios web que sean los más adecuados para cubrir tus necesidades, también te ayudamos a ubicar cual es la solución perfecta para tu empresa o idea.";
     break;
     case "ux-design":
-        $title = "UX Design, Curso Intensivo de UX Design, Software Insights";
+        $title = "Curso Desarrollo de Productos Digitales - UX Design UI Design";
         $description = "UX Design (User Experience Design) o “Diseño de Experiencia de Usuario” es una filosofía de diseño que tiene por objetivo la creación de productos que resuelvan necesidades concretas de sus usuarios finales, consiguiendo la mayor satisfacción y mejor experiencia de uso posible con el mínimo esfuerzo.";
+    break;
+    case "curso-desarrollador-de-software-full-stack":
+        $title = "Aprende a desarrollar software del lado del back-end y front-end.";
+        $description = "Al finalizar el curso, tendras los conocimientos necesarios para obtener un empleo como desarrollador Full Stack.";
+    break;
+    case "curso-principios-de-programacion-web":
+        $title = "Curso dedicado a todos aquellos que deseen obtener conocimientos básicos sobre paginas web.";
+        $description = "Al finalizar el curso, tendras los conocimientos necesarios para obtener un empleo como desarrollador web.";
     break;
     default:
         $title = "Desarrollo de Software en Ciudad Guzmán";
         $description = "Creamos sitios web que sean los más adecuados para cubrir tus necesidades, también te ayudamos a ubicar cual es la solución perfecta para tu empresa o idea.";
     break;
+
 
 }

@@ -18,10 +18,11 @@
                   <div class="col-sm-6 form-group">
                     <label for="nivel">Nivel</label>
                     <select class="form-control" id="nivel" name="nivel">
-                      <option value="jr">Jr.</option>
-                      <option value="intermedio">Intermedio</option>
-                      <option value="senior">Senior</option>
-                      <option value="ux">UX Designer</option>
+                      <option value="ux">Productos Digitales / UX Designer</option>
+                      <option value="jr">Full Stack Jr.</option>
+                      <option value="intermedio">Full Stack Intermedio</option>
+                      <option value="senior">Full Stack Senior</option>
+                      <option value="principios">Principios de Programación Web</option>
                     </select>
                   </div>
                   <div class="col-sm-6 form-group">
@@ -112,7 +113,10 @@
                                 "<option>Loopback</option>" );
         break;
         case 'ux':
-              tecnologias.html( "<option>Ux Design</option>" );
+              tecnologias.html( "<option>Productos Digitales / Ux Design</option>" );
+        break;
+        case 'principios':
+              tecnologias.html( "<option>Principios de Programación Web</option>" );
         break;
       }
     });

@@ -24,6 +24,7 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar2">
           <ul class="nav navbar-nav navbar-center">
+            <li><a href="<?php echo APP_PATH; ?>servicios/talleres/creacion-de-sitios-web-desde-cero">CURSO CREACIÓN DE SITIOS WEB DESDE CERO</a></li>
             <li><a href="<?php echo APP_PATH; ?>servicios/talleres/curso-desarrollador-de-software-full-stack">CURSO DESARROLLADOR DE SOFTWARE FULLSTACK</a></li>
             <li><a href="<?php echo APP_PATH.'servicios/talleres/ux-design'; ?>">CURSO DESARROLLO DE PRODUCTOS DIGITALES / UX DESIGN</a></li>
             <li><a href="<?php echo APP_PATH.'servicios/talleres/curso-principios-de-programacion-web'; ?>">CURSO PRINCIPIOS DE PROGRAMACIÓN WEB</a></li>

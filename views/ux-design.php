@@ -24,6 +24,7 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar2">
           <ul class="nav navbar-nav navbar-center">
+            <li><a href="<?php echo APP_PATH; ?>servicios/talleres/creacion-de-sitios-web-desde-cero">CURSO CREACIÓN DE SITIOS WEB DESDE CERO</a></li>
             <li><a href="<?php echo APP_PATH; ?>servicios/talleres/curso-desarrollador-de-software-full-stack">CURSO DESARROLLADOR DE SOFTWARE FULLSTACK</a></li>
             <li><a href="<?php echo APP_PATH.'servicios/talleres/ux-design'; ?>">CURSO DESARROLLO DE PRODUCTOS DIGITALES / UX DESIGN</a></li>
             <li><a href="<?php echo APP_PATH.'servicios/talleres/curso-principios-de-programacion-web'; ?>">CURSO PRINCIPIOS DE PROGRAMACIÓN WEB</a></li>
@@ -42,7 +43,6 @@
         <p>¡Aparta tu lugar! <i><strong>¡Inscríbete antes del 31 de Diciembre del 2017 y obtén un 25% de descuento!, <a href="<?php echo APP_PATH; ?>servicios/talleres/ux-design">¡Inscríbete ahora mismo!</a></strong></i></p>
       </div>
     </div>
-
 
   <div class="row py-3">
     <div class="col-md-8 offset-2 py-3 ">
@@ -109,12 +109,6 @@
           </ol>
         </dt>
       </ul> 
-
-
-
-
-
-
       <h2><strong>2do. Módulo, Temario Front-End Development</strong> </h2>
       <ul>
         <dt><strong>1. Introduccion a Front-End Development</strong>
@@ -164,8 +158,6 @@
       </ul> 
     </div>
   </div>
-
-
 
   <div class="row py-3">
     <div class="col-md-8 offset-2 py-3">

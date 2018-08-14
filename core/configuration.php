@@ -66,13 +66,15 @@ switch($view) {
         $description = "Al finalizar el curso, tendras los conocimientos necesarios para obtener un empleo como desarrollador web.";
     break;
     case "soporte-tecnico":
-    $title = "Soporte Técnico, Mantenimiento Preventivo y Correctivo de Equipo de Cómputo en Ciudad Guzmán.";
-    $description = "Soporte Técnico, Mantenimiento Preventivo y Correctivo de Equipo de Cómputo en Ciudad Guzmán.";
-break;
+        $title = "Soporte Técnico, Mantenimiento Preventivo y Correctivo de Equipo de Cómputo en Ciudad Guzmán.";
+        $description = "Soporte Técnico, Mantenimiento Preventivo y Correctivo de Equipo de Cómputo en Ciudad Guzmán.";
+    break;
+    case "creacion-de-sitios-web-desde-cero":
+        $title = "Curso Básico Creación de Sitios Web Desde Cero.";
+        $description = "Aprende de manera sencilla y práctica a crear sitios web de calidad, con tecnología y técnicas de programación de punta en Ciudad Guzmán. El curso es para aprender desde cero a crear sitios web con los lenguajes y técnicas correctas.";
+    break;
     default:
         $title = "Desarrollo de Software en Ciudad Guzmán";
         $description = "Creamos sitios web que sean los más adecuados para cubrir tus necesidades, también te ayudamos a ubicar cual es la solución perfecta para tu empresa o idea.";
     break;
-
-
 }

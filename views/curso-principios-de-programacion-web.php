@@ -24,6 +24,7 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar2">
         <ul class="nav navbar-nav navbar-center">
+            <li><a href="<?php echo APP_PATH; ?>servicios/talleres/creacion-de-sitios-web-desde-cero">CURSO CREACIÓN DE SITIOS WEB DESDE CERO</a></li>
             <li><a href="<?php echo APP_PATH; ?>servicios/talleres/curso-desarrollador-de-software-full-stack">CURSO DESARROLLADOR DE SOFTWARE FULLSTACK</a></li>
             <li><a href="<?php echo APP_PATH.'servicios/talleres/ux-design'; ?>">CURSO DESARROLLO DE PRODUCTOS DIGITALES / UX DESIGN</a></li>
             <li><a href="<?php echo APP_PATH.'servicios/talleres/curso-principios-de-programacion-web'; ?>">CURSO PRINCIPIOS DE PROGRAMACIÓN WEB</a></li> 
@@ -35,8 +36,8 @@
     <div class="col-sm-12">
       <h2>CURSO PRINCIPIOS DE DESARROLLO WEB</h2>
       <h3>Especificaciones del curso</h3>
-      <p>Curso dedicado a todos aquellos que deseen obtener conocimientos básicos sobre paginas web.</p>
-      <h3>Tecnologias a ver en el curso</h3>
+      <p>Curso dedicado a todos aquellos que deseen obtener conocimientos básicos sobre creación de paginas web.</p>
+      <h3>Tecnologías a ver en el curso</h3>
       <ul>
         <li>HTML5</li>
         <li>CSS3</li>
@@ -44,24 +45,24 @@
       <h3>¿Que aprenderé?</h3>
       <ul>
         <li>
-        Conocer la estructura básica de un HTML
+        Conocer la estructura básica de un HTML5.
         </li>
         <li>    
-          Conocer la hoja de estilos CSS 
+          Conocer la hoja de estilos CSS.
         </li>
         <li>
-          Conocer los tags más usados en HTML
+          Conocer los tags más usados en HTML5.
         </li>
       </ul>
       <h3>¿Que lograré?</h3>
-      <p>Al finalizar el curso, tendras los conocimientos necesarios para obtener un empleo como desarrollador web.</p>
+      <p>Al finalizar el curso, tendras los conocimientos necesarios para obtener un empleo como desarrollador web nivel Jr.</p>
       <h3>¿Que obtendré?</h3>
       <p>
         Certificado con validez curricular.
       </p>
       <h3>Costo y duración</h3>
         <p>
-          $750.00 pesos mexicanos y con duracion de 24 horas equivalente a un mes.
+          $750.00 pesos mexicanos y con duracion de 12 horas.
         </p>
     </div>
   </div>
